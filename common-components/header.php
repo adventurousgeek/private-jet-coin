@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>Website Title</title>
+    <title>PrivateJetCoin</title>
     <style>
         <?php
             $css = file_get_contents('style.css');
