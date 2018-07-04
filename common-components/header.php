@@ -19,5 +19,25 @@
 <?php require_once "svg-icons.php"; ?>
 
 <header class="site-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav>
+                    <a href="#">Legal</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Email</a>
+                    <a href="#">Bitcoin</a>
+                    <a href="#">Reddit</a>
 
+                    <div class="logo">
+                    </div>
+
+                    <a href="#">Slide Deck</a>
+                    <a href="#">Whitepaper</a>
+                </nav>
+            </div>
+        </div>
+    </div>
 </header>
