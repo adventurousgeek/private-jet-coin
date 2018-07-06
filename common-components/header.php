@@ -23,19 +23,20 @@
         <div class="row">
             <div class="col-lg-12">
                 <nav>
-                    <a href="#">Legal</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Facebook</a>
-                    <a href="#">LinkedIn</a>
-                    <a href="#">Email</a>
-                    <a href="#">Bitcoin</a>
-                    <a href="#">Reddit</a>
+                    <ul class="list-inline">
+                        <li><button type="submit" class="btn btn-primary">Legal</button></li>
+                        <li><a href="#"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
+                        <li><a href="#"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
+                        <li><a href="#"><svg class="icon icon-linkedin2"><use xlink:href="#icon-linkedin2"></use></svg></a></li>
+                        <li><a href="#"><svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg></a></li>
+                        <li><a href="#"><svg class="icon icon-bitcoin"><use xlink:href="#icon-bitcoin"></use></svg></a></li>
+                        <li><a href="#"><svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg></a></li>
 
-                    <div class="logo">
-                    </div>
+                        <li><img src="./assets/images/header-logo.png"></li>
 
-                    <a href="#">Slide Deck</a>
-                    <a href="#">Whitepaper</a>
+                        <li><button type="submit" class="btn btn-primary">Slide Deck</button></li>
+                        <li><button type="submit" class="btn btn-primary">Whitepaper</button></li>
+                    </ul>
                 </nav>
             </div>
         </div>

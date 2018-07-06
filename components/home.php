@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1>The Blockchain Powered Private Aviation Platform</h1>
+                <h1>The Blockchain Powered<br />Private Aviation Platform</h1>
                 <h3>ICO Take-Off In</h3>
                 <form>
                     <div class="row">
