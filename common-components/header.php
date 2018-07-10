@@ -23,19 +23,19 @@
         <div class="row">
             <div class="col-lg-12">
                 <nav>
-                    <ul class="list-inline">
-                        <li><button type="submit" class="btn btn-primary">Legal</button></li>
-                        <li><a href="#"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
-                        <li><a href="#"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
-                        <li><a href="#"><svg class="icon icon-linkedin2"><use xlink:href="#icon-linkedin2"></use></svg></a></li>
-                        <li><a href="#"><svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg></a></li>
-                        <li><a href="#"><svg class="icon icon-bitcoin"><use xlink:href="#icon-bitcoin"></use></svg></a></li>
-                        <li><a href="#"><svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg></a></li>
+                    <ul class="list-inline text-center">
+                        <li class="float-left"><button type="submit" class="btn btn-primary">Legal</button></li>
+                        <li class="float-left"><a href="#"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
+                        <li class="float-left"><a href="#"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
+                        <li class="float-left"><a href="#"><svg class="icon icon-linkedin2"><use xlink:href="#icon-linkedin2"></use></svg></a></li>
+                        <li class="float-left"><a href="#"><svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg></a></li>
+                        <li class="float-left"><a href="#"><svg class="icon icon-bitcoin"><use xlink:href="#icon-bitcoin"></use></svg></a></li>
+                        <li class="float-left"><a href="#"><svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg></a></li>
 
-                        <li><img src="./assets/images/header-logo.png"></li>
+                        <li class="logo-header"><img src="./assets/images/header-logo.png"></li>
 
-                        <li><button type="submit" class="btn btn-primary">Slide Deck</button></li>
-                        <li><button type="submit" class="btn btn-primary">Whitepaper</button></li>
+                        <li class="float-right"><button type="submit" class="btn btn-primary">Slide Deck</button></li>
+                        <li class="float-right"><button type="submit" class="btn btn-primary">Whitepaper</button></li>
                     </ul>
                 </nav>
             </div>

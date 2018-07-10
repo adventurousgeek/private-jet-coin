@@ -30,14 +30,16 @@
             <div class="col-lg-3">
                 <h3>Tokenized Flight Hours</h3>
             </div>
-            <div class="col-lg-6"></div>
+            <div class="col-lg-6">
+                <img src="assets/images/private-jet-coin.png">
+            </div>
             <div class="col-lg-3">
                 <h3>Protocol Agnostic Dapp</h3>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
-                <h3>PrivateJetCoin Service</h3>
+            <div class="col-lg-12 text-center">
+                <h1>PrivateJetCoin Service</h1>
                 <h5>Virtue in Flight</h5>
                 <p>PrivateJetCoin allows tokenized cryptocurrency payment for private air travel. We intend to purchase a fleet of Embraer Legacy 450 aircraft. Book a jet on our marketplace, send your tokens to the deposit address, and head to the airport. Want a different jet? Just ask, we will provide price in tokens and book it.</p>
             </div>
@@ -51,6 +53,9 @@
             <div class="col-lg-6">
                 <h1>PJC Ecosystem</h1>
                 <p>In the cryptocurrency  space, speculators jump  from  cryptocurrency to cryptocurrency based mostly on which one is expected to have short-term growth.  PrivateJetCoin wants to build a community that is mostly owned and entirely controlled by those with a desire for private travel.</p>
+                <div class="light-box-video">
+                    <a href="#"><svg class="icon icon-play2"><use xlink:href="#icon-play2"></use></svg></a>
+                </div>
             </div>
             <div class="col-lg-6">
 
@@ -59,7 +64,7 @@
     </div>
 </section>
 
-<section class="use-cases universal-section">
+<section class="use-cases universal-section light-colors">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -71,19 +76,30 @@
                 <p>Airline ticket management urgently needs technical innovation.</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row text-center">
             <div class="col-lg-12">
-                <h2>Third Party</h2>
-                <p>Manual order processing and information retrieval via e-mail, telephone or fax must be a thing of the past. Direct bookings and empowerment of the customer through the availability of all data is our goal.</p>
+                <ul class="list-unstyled list-inline">
+                    <li><img src="assets/images/carousel-icon-one.png"></li>
+                    <li><img src="assets/images/carousel-icon-one.png"></li>
+                    <li><img src="assets/images/carousel-icon-one.png"></li>
+                    <li><img src="assets/images/carousel-icon-one.png"></li>
+                    <li><img src="assets/images/carousel-icon-one.png"></li>
+                    <li><img src="assets/images/carousel-icon-one.png"></li>
+                </ul>
+                <div>
+                    <h2><svg class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg>Third Party<svg class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></h2>
+                    <p>Manual order processing and information retrieval via e-mail, telephone or fax must be a thing of the past. Direct bookings and empowerment of the customer through the availability of all data is our goal.</p>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="pjc-card universal-section">
+<section class="pjc-card universal-section light-colors">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 text-center">
+                <img src="assets/images/pjc-card.png">
                 <h1>The PJC' JetCard</h1>
                 <p>The PJC’ JetCard gives you guaranteed access to a fleet of ARG/US Platinum-rated aircraft in 25-hour increments. Simply prepay for 25 hours of flight time on the aircraft of your choice. Once you have completed your 25 hours you have the option to renew, change plans, or cancel. There’s no long-term commitment.</p>
             </div>
@@ -92,29 +108,31 @@
 </section>
 
 <section class="virtual-reality universal-section">
-    <div class="container">
+    <div class="container-fluid light-colors">
         <div class="row">
-            <div class="col-lg-6">
-
+            <div class="col-lg-6 no-padding">
+                <div class="vr-overlay"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1530866269635!6m8!1m7!1sap439g3c9Blw2LtDrug6Pg!2m2!1d41.89339201261752!2d-87.62174711887116!3f66.70256535486834!4f-6.961125117499819!5f0.7820865974627469" width="100%" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 content-block right-block text-right container">
                 <h1>Embraer Legacy 450</h1>
-                <p>Your safety is our top priority. The Embraer 450 series has built an excellent track record, but don't take our word for it - see for yourself: Safeteynet Database.</p>
+                <p>Your safety is our top priority. The Embraer 450 series<br />has built an excellent track record, but don't take our<br />word for it - see for yourself: Safeteynet Database.</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 content-block left-block">
                 <h1>Travel in Comfort</h1>
-                <p>Every inch of the Legacy 450 has been thoughtfully designed. The 6 ft. tall cabin features flat floor and two fully berthable club seat options recline flat to create beds.</p>
+                <p>Every inch of the Legacy 450 has been thoughtfully<br />designed. The 6 ft. tall cabin features flat floor and<br />two fully berthable club seat options recline flat to<br />create beds.</p>
             </div>
-            <div class="col-lg-6">
-
+            <div class="col-lg-6 no-padding">
+                <div class="vr-overlay vr-overlay-last"></div>
+                <iframe class="vr-last" src="https://www.google.com/maps/embed?pb=!4v1530866708398!6m8!1m7!1sM79P0fHfHunjRs_TIAbnng!2m2!1d41.89340534375392!2d-87.62123017138317!3f247.5168870081729!4f31.618699669628782!5f0.7820865974627469" width="100%" height="492" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
 </section>
 
-<section class="token-summary universal-section">
+<section class="token-summary light-colors universal-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -124,28 +142,48 @@
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <h3>Funds Distribution</h3>
+                <h3 class="text-right">Funds Distribution</h3>
+                <ul class="list-unstyled float-left">
+                    <li class="pjc-development">PJC Development</li>
+                    <li class="mns">Marketing and Sales</li>
+                    <li class="token-market">Token Market Support</li>
+                    <li class="legal">Legal</li>
+                    <li class="cns">Compliance & Security</li>
+                </ul>
+                <img class="float-right" src="assets/images/funds-distribution.png">
             </div>
             <div class="col-lg-6">
-                <h3>Token Distribution</h3>
+                <h3 class="text-left">Token Distribution</h3>
+                <ul class="float-right list-unstyled">
+                    <li class="ppnp">Private Pre-Sale & Public Sale</li>
+                    <li class="fd">Future Development</li>
+                    <li class="ft">Founders and Team</li>
+                    <li class="fp">Future Partners</li>
+                    <li class="aa">Advisors & Ambassadors</li>
+                </ul>
+                <img src="assets/images/token-distribution.png" class="float-left">
             </div>
         </div>
     </div>
 </section>
 
 <section class="road-map universal-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3">
-                <h1>Roadmap</h1>
-            </div>
-            <div class="col-lg-3">
-                <h3>ICO Take-Off In</h3>
-            </div>
-            <div class="col-lg-6">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h1>Roadmap</h1>
+                </div>
+                <div class="col-lg-3">
+                    <h3>ICO Take-Off In</h3>
+                </div>
+                <div class="col-lg-6">
 
+                </div>
             </div>
         </div>
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div></div>
