@@ -70,22 +70,24 @@
             <div class="col-lg-6">
                 <h1>Use Cases</h1>
                 <p>Management in general aviation (GA) requires sustainable and completely new concepts.</p>
-            </div>
-            <div class="col-lg-6">
-                <h1>Airlines</h1>
-                <p>Airline ticket management urgently needs technical innovation.</p>
-            </div>
-        </div>
-        <div class="row text-center">
-            <div class="col-lg-12">
                 <ul class="list-unstyled list-inline">
                     <li><img src="assets/images/carousel-icon-one.png"></li>
                     <li><img src="assets/images/carousel-icon-one.png"></li>
                     <li><img src="assets/images/carousel-icon-one.png"></li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <h1>Airlines</h1>
+                <p>Airline ticket management urgently needs<br />technical innovation.</p>
+                <ul class="list-unstyled list-inline">
                     <li><img src="assets/images/carousel-icon-one.png"></li>
                     <li><img src="assets/images/carousel-icon-one.png"></li>
                     <li><img src="assets/images/carousel-icon-one.png"></li>
                 </ul>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-12">
                 <div>
                     <h2><svg class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg>Third Party<svg class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></h2>
                     <p>Manual order processing and information retrieval via e-mail, telephone or fax must be a thing of the past. Direct bookings and empowerment of the customer through the availability of all data is our goal.</p>
