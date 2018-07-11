@@ -302,7 +302,68 @@
 }
 .road-map {
   background-color: #435872;
-  .container {
-    background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .road-map-header {
+    background-color: #34465b;
+    padding: 52px 0px;
+    .container {
+      h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 600;
+        text-align: right;
+        line-height: 60px;
+      }
+    }
+  }
+  .quarter-predictions {
+    padding: 75px 0px;
+    background: #3c4f67;
+    .container {
+      .row {
+        .quarter-one {
+          display: inline-block;
+          height: 250px;
+        }
+        .quarter-two {
+          display: inline-block;
+          height: 250px;
+        }
+        .quarter-three {
+          display: inline-block;
+          height: 250px;
+        }
+        .quarter-four {
+          display: inline-block;
+          height: 250px;
+        }
+        h1 {
+          margin-top: 0px;
+        }
+        p {
+          text-align: center;
+        }
+        .main-div {
+          width: 142px;
+          text-align: center;
+          display: inline-block;
+          float: left;
+        }
+        .sub-div {
+          display: inline-block;
+          width: 190px;
+          text-align: center;
+          margin: auto;
+          float: right;
+        }
+      }
+    }
   }
 }

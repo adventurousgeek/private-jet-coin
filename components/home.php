@@ -167,8 +167,8 @@
     </div>
 </section>
 
-<section class="road-map universal-section">
-    <div class="row">
+<section class="road-map universal-section light-colors">
+    <div class="road-map-header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -183,13 +183,64 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+    <div class="quarter-predictions">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="quarter-one">
+                        <div class="main-div">
+                            <h1>Q3/18</h1>
+                            <p>JUL</p>
+                            <img src="assets/images/road-map-database.png">
+                            <p>Building Global Flight Database</p>
+                        </div>
+                        <div class="sub-div">
+                            <img src="assets/images/plane-icon.png">
+                            <ul class="list-unstyled">
+                                <li>500 BTC</li>
+                                <li>+30% Bonus</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="quarter-two">
+                        <div class="main-div">
+                            <h1>Q3/18</h1>
+                            <p>AUG</p>
+                            <img src="assets/images/road-map-aviation.png">
+                            <p>Development of Aviation Portal</p>
+                        </div>
+                        <div class="sub-div">
+                            <img src="assets/images/plane-icon.png">
+                            <ul class="list-unstyled">
+                                <li>750 BTC</li>
+                                <li>+30% Bonus</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="quarter-three">
+                        <div class="main-div">
+                            <h1>Q3/18</h1>
+                            <p>SEP</p>
+                            <img src="assets/images/road-map-public-launch.png">
+                            <p>PJC API Public Launch</p>
+                        </div>
+                        <div class="sub-div">
+                            <img src="assets/images/plane-icon.png">
+                            <ul class="list-unstyled">
+                                <li>1000 BTC</li>
+                                <li>+20% Bonus</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="quarter-four">
+                        <div class="main-div">
+                            <h1>Q4/18</h1>
+                            <p>OCT</p>
+                            <img src="assets/images/road-map-sales-force.png">
+                            <p>PJC Salesforce integration</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
