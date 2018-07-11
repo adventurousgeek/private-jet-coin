@@ -121,6 +121,11 @@
           margin-bottom: 31px;
         }
       }
+      .inactive{
+        h1, p {
+          color: rgba(255,255,255, 0.5);
+        }
+      }
       .col-lg-12 {
         ul {
             margin-bottom: 60px;
