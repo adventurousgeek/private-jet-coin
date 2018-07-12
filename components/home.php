@@ -76,7 +76,7 @@
                     <li><img src="assets/images/carousel-icon-one.png"></li>
                 </ul>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 inactive">
                 <h1>Airlines</h1>
                 <p>Airline ticket management urgently needs<br />technical innovation.</p>
                 <ul class="list-unstyled list-inline">
