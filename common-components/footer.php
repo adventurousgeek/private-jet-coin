@@ -58,9 +58,14 @@
         </div>
     </section>
 </footer>
-
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+</script>
 <script async src="assets/js/scripts.js"></script>
-
+<script async src="src-assets/javascripts/components/home.js"></script>
 </body>
 </html>
 

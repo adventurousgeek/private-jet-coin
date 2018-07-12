@@ -87,9 +87,39 @@
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-lg-12">
+            <div id="div_1" class="col-lg-12">
                 <div>
-                    <h2><svg class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg>Third Party<svg class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></h2>
+                    <h2><svg class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg>First Party<svg onclick="nextInfo('div_1','div_2')" class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></h2>
+                    <p>Manual order processing and information retrieval via e-mail, telephone or fax must be a thing of the past. Direct bookings and empowerment of the customer through the availability of all data is our goal.</p>
+                </div>
+            </div>
+            <div id="div_2" class="col-lg-12 hide">
+                <div>
+                    <h2><svg onclick="prevInfo('div_2','div_1')" class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg>Second Party<svg onclick="nextInfo('div_2','div_3')" class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></h2>
+                    <p>Manual order processing and information retrieval via e-mail, telephone or fax must be a thing of the past. Direct bookings and empowerment of the customer through the availability of all data is our goal.</p>
+                </div>
+            </div>
+            <div id="div_3" class="col-lg-12 hide">
+                <div>
+                    <h2><svg onclick="prevInfo('div_3','div_2')" class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg>Third Party<svg onclick="nextInfo('div_3','div_4')" class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></h2>
+                    <p>Manual order processing and information retrieval via e-mail, telephone or fax must be a thing of the past. Direct bookings and empowerment of the customer through the availability of all data is our goal.</p>
+                </div>
+            </div>
+            <div id="div_4" class="col-lg-12 hide">
+                <div>
+                    <h2><svg onclick="prevInfo('div_4','div_3')" class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg>Fourth Party<svg onclick="nextInfo('div_4','div_5')" class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></h2>
+                    <p>Manual order processing and information retrieval via e-mail, telephone or fax must be a thing of the past. Direct bookings and empowerment of the customer through the availability of all data is our goal.</p>
+                </div>
+            </div>
+            <div id="div_5" class="col-lg-12 hide">
+                <div>
+                    <h2><svg onclick="prevInfo('div_5','div_4')" class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg>Fifth Party<svg onclick="nextInfo('div_5','div_6')" class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></h2>
+                    <p>Manual order processing and information retrieval via e-mail, telephone or fax must be a thing of the past. Direct bookings and empowerment of the customer through the availability of all data is our goal.</p>
+                </div>
+            </div>
+            <div id="div_6" class="col-lg-12 hide">
+                <div>
+                    <h2><svg onclick="prevInfo('div_6','div_5')" class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg>Sixth Party<svg class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></h2>
                     <p>Manual order processing and information retrieval via e-mail, telephone or fax must be a thing of the past. Direct bookings and empowerment of the customer through the availability of all data is our goal.</p>
                 </div>
             </div>
