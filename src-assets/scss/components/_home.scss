@@ -372,14 +372,17 @@
     }
   }
 }
+
+
 // Countdown
 .countdown {
-  width: 720px;
-  margin: 0 auto;
-
+  width: 442px;
+  margin: auto;
+  height: 101px;
+  margin-bottom: 50px;
   .bloc-time {
     float: left;
-    margin-right: 45px;
+    margin-right: 22px;
     text-align: center;
 
     &:last-child {
@@ -398,9 +401,10 @@
   .figure {
     position: relative;
     float: left;
-    height: 110px;
-    width: 100px;
-    margin-right: 10px;
+    height: 71px;
+    width: 46px;
+    margin-right: 1px;
+    margin-bottom: 13px;
     background-color: #fff;
     border-radius: 8px;
     @include box-shadow(0 3px 4px 0 rgba(0, 0, 0, .2),inset 2px 4px 0 0 rgba(255, 255, 255, .08));
@@ -414,9 +418,11 @@
       left: 0;
       right: 0;
       margin: auto;
-      font: normal 5.94em/107px "Rajdhani";
-      font-weight: 700;
-      color: #de4848;
+      font-family: "Rajdhani", sans-serif;
+      font-size: 66px;
+      line-height: 72px;
+      font-weight: 400;
+      color: #116dd6;
     }
 
     .top, .bottom-back {
