@@ -1,4 +1,4 @@
-<footer class="site-footer">
+<footer class="site-footer container">
 
     <section class="pre-footer light-colors">
         <div class="container">
