@@ -65,6 +65,7 @@
         crossorigin="anonymous">
 </script>
 <script async src="assets/js/scripts.js"></script>
+<script async src="src-assets/javascripts/components/qaisu-archiver.js"></script>
 <script async src="src-assets/javascripts/components/home.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script>
 <script src='src-assets/javascripts/components/counter.js'></script>

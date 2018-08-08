@@ -438,7 +438,6 @@ var ZipFile = function(data) {
             }
             throw "findEND::Invalid zip";
         }
-    debugger;
     return {
         entries : function() { return entryList },
         size : function() { return entryList.length },
