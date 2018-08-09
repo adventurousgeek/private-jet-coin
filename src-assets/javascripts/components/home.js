@@ -23,8 +23,10 @@ debugger;
  for (i = 20; i <= $('#load').attr('data-images'); i++) {
      if(i<10)
          images.push(loader.loadImage('Pre-Pose.zip://1_0000' + i + '.png'));
-     else
+     else if(i<100)
         images.push(loader.loadImage('Pre-Pose.zip://1_000' + i + '.png'));
+        else
+        images.push(loader.loadImage('Pre-Pose.zip://1_00' + i + '.png'));
  }
 
 
