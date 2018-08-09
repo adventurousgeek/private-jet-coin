@@ -1,9 +1,9 @@
+<div id="load" data-images="104"></div>
 <div class="jet-model-wrapper" id="wrapper">
     <div id="rotate">
-        <img src="./assets/images/1_00104.png">
+        <img id="jet-animate" src="./assets/images/1_00104.png">
     </div>
 </div>
-
 <section class="mast-head universal-section">
     <div class="container">
         <div class="row">
