@@ -1,3 +1,9 @@
+<div class="jet-model-wrapper" id="wrapper">
+    <div id="rotate">
+        <img src="./assets/images/1_00104.png">
+    </div>
+</div>
+
 <section class="mast-head universal-section">
     <div class="container">
         <div class="row">

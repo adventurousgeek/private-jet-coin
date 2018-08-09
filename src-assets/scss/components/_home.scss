@@ -1,3 +1,17 @@
+.jet-model-wrapper {
+  position: fixed;
+  z-index: 6;
+  height: 100vh;
+  width: 100%;
+  #rotate {
+    img {
+      margin: auto;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
 .mast-head {
   background-color: #d7dde4;
   display: flex;
