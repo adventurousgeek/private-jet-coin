@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7c4a900-d011-4744-9f29-41c20860ad58" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-components/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common-components/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-components/svg-icons.php" beforeDir="false" afterPath="$PROJECT_DIR$/common-components/svg-icons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src-assets/scss/common-components/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src-assets/scss/common-components/_globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-assets/scss/components/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src-assets/scss/components/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_globals.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_globals.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src-assets/scss/common-components/_globals.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="470">
+              <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -36,20 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/home.php">
+      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3162">
-              <caret line="186" column="20" selection-start-line="186" selection-start-column="20" selection-end-line="186" selection-end-column="107" />
+            <state relative-caret-position="333">
+              <caret line="329" column="11" selection-start-line="329" selection-start-column="11" selection-end-line="329" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="204">
+              <caret line="164" column="81" selection-start-line="164" selection-start-column="81" selection-end-line="164" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -63,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="svg-icons.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="svg-icons.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common-components/svg-icons.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+            <state relative-caret-position="290">
+              <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -81,13 +80,17 @@
       <find>linked</find>
       <find>#009168</find>
       <find>$dark-green</find>
-      <find>svg</find>
       <find>use-cases</find>
       <find>ICO take</find>
       <find>lato</find>
       <find>countd</find>
       <find>countdo</find>
       <find>use</find>
+      <find>pjc-ca</find>
+      <find>token dis</find>
+      <find>token</find>
+      <find>svg</find>
+      <find>private-jet</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,11 +106,11 @@
         <option value="$PROJECT_DIR$/src-assets/scss/common-components/_footer.scss" />
         <option value="$PROJECT_DIR$/src-assets/scss/common-components/_variables.scss" />
         <option value="$PROJECT_DIR$/common-components/footer.php" />
-        <option value="$PROJECT_DIR$/components/home.php" />
-        <option value="$PROJECT_DIR$/src-assets/scss/components/_home.scss" />
-        <option value="$PROJECT_DIR$/src-assets/scss/common-components/_globals.scss" />
         <option value="$PROJECT_DIR$/common-components/header.php" />
         <option value="$PROJECT_DIR$/common-components/svg-icons.php" />
+        <option value="$PROJECT_DIR$/src-assets/scss/components/_home.scss" />
+        <option value="$PROJECT_DIR$/components/home.php" />
+        <option value="$PROJECT_DIR$/src-assets/scss/common-components/_globals.scss" />
       </list>
     </option>
   </component>
@@ -132,7 +135,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="932" />
     <option name="y" value="300" />
     <option name="width" value="974" />
@@ -245,12 +248,14 @@
       <workItem from="1533799759172" duration="1181000" />
       <workItem from="1533823366224" duration="866000" />
       <workItem from="1533827250380" duration="1147000" />
-      <workItem from="1533878417953" duration="446000" />
+      <workItem from="1533878417953" duration="1135000" />
+      <workItem from="1533882248444" duration="1742000" />
+      <workItem from="1533885199542" duration="1344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77410000" />
+    <option name="totallyTimeSpent" value="81185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -260,8 +265,8 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32306057" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19114584" />
@@ -547,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src-assets/scss/common-components/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="82" selection-start-line="63" selection-start-column="82" selection-end-line="63" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/road-map-database.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -582,24 +580,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/common-components/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="82" selection-start-line="63" selection-start-column="82" selection-end-line="63" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src-assets/scss/common-components/_globals.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3162">
-          <caret line="186" column="20" selection-start-line="186" selection-start-column="20" selection-end-line="186" selection-end-column="107" />
+        <state relative-caret-position="333">
+          <caret line="329" column="11" selection-start-line="329" selection-start-column="11" selection-end-line="329" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -612,8 +603,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common-components/svg-icons.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+        <state relative-caret-position="290">
+          <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="164" column="81" selection-start-line="164" selection-start-column="81" selection-end-line="164" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/common-components/_globals.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
         </state>
       </provider>
     </entry>

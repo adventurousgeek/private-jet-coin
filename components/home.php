@@ -162,6 +162,9 @@
             </div>
             <div class="col-lg-6">
                 <img src="assets/images/private-jet-coin.png">
+                <svg class="icon icon-play2"><use xlink:href="#icon-play2"></use></svg>
+                <svg class=""><use xlink:href="#"></use></svg>
+
             </div>
             <div class="col-lg-3">
                 <h3>Protocol Agnostic Dapp</h3>
@@ -258,6 +261,7 @@
 </section>
 
 <section class="pjc-card universal-section light-colors">
+    <svg class="world-map-svg"><use xlink:href="#world-map-svg"></use></svg>
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -312,7 +316,7 @@
                     <li class="legal">Legal</li>
                     <li class="cns">Compliance & Security</li>
                 </ul>
-                <img class="float-right" src="assets/images/funds-distribution.png">
+                <svg class="graph-funds-distribution"><use xlink:href="#graph-funds-distribution"></use></svg>
             </div>
             <div class="col-lg-6">
                 <h3 class="text-left">Token Distribution</h3>
@@ -323,7 +327,7 @@
                     <li class="fp">Future Partners</li>
                     <li class="aa">Advisors & Ambassadors</li>
                 </ul>
-                <img src="assets/images/token-distribution.png" class="float-left">
+                <svg class="graph-token-distribution"><use xlink:href="#graph-token-distribution"></use></svg>
             </div>
         </div>
     </div>
