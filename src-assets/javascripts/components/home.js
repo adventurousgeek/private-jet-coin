@@ -1,14 +1,35 @@
 
 $( document ).ready(function() {
+    debugger;
     var pploader = new ZipLoader('Pre-Pose.zip');
     var images = [];
-    for (i = 0; i <= $('#load').attr('data-images'); i++) {
+    for (i = 0; i <= 104; i++) { //getting loop ending value from html element "$('#load').attr('data-images')"
         if(i<10)
             images.push(pploader.loadImage('Pre-Pose.zip://1_0000' + i + '.png'));
         else if(i<100)
             images.push(pploader.loadImage('Pre-Pose.zip://1_000' + i + '.png'));
         else
             images.push(pploader.loadImage('Pre-Pose.zip://1_00' + i + '.png'));
+    }
+
+    pploader = new ZipLoader('Pose.zip');
+    for (i = 0; i <= 149; i++) {
+        if(i<10)
+            images.push(pploader.loadImage('Pose.zip://2_0000' + i + '.png'));
+        else if(i<100)
+            images.push(pploader.loadImage('Pose.zip://2_000' + i + '.png'));
+        else
+            images.push(pploader.loadImage('Pose.zip://2_00' + i + '.png'));
+    }
+
+    var pploader = new ZipLoader('Landing.zip');
+    for (i = 0; i <= 149; i++) {
+        if(i<10)
+            images.push(pploader.loadImage('Landing.zip://3_0000' + i + '.png'));
+        else if(i<100)
+            images.push(pploader.loadImage('Landing.zip://3_000' + i + '.png'));
+        else
+            images.push(pploader.loadImage('Landing.zip://3_00' + i + '.png'));
     }
     $(images).each(function () {
           $('<img />')[0].src = this;
