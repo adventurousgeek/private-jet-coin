@@ -162,8 +162,7 @@
             </div>
             <div class="col-lg-6">
                 <img src="assets/images/private-jet-coin.png">
-                <svg class="icon icon-play2"><use xlink:href="#icon-play2"></use></svg>
-                <svg class=""><use xlink:href="#"></use></svg>
+
 
             </div>
             <div class="col-lg-3">
