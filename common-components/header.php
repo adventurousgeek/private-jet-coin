@@ -32,7 +32,7 @@
                         <li class="float-left"><a href="#"><svg class="icon icon-bitcoin"><use xlink:href="#icon-bitcoin"></use></svg></a></li>
                         <li class="float-left"><a href="#"><svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg></a></li>
 
-                        <li class="logo-header"><img src="./assets/images/header-logo.png"></li>
+                        <li class="logo-header"><a href="#"><svg class="svg-pjc-logo-header"><use xlink:href="#svg-pjc-logo-header"></use></svg></a></li>
 
                         <li class="float-right"><button type="submit" class="btn btn-primary">Slide Deck</button></li>
                         <li class="float-right"><button type="submit" class="btn btn-primary">Whitepaper</button></li>
