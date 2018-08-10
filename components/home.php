@@ -161,9 +161,7 @@
                 <h3>Tokenized Flight Hours</h3>
             </div>
             <div class="col-lg-6">
-                <img src="assets/images/private-jet-coin.png">
-
-
+                <svg class="coin-background-pjc-section"><use xlink:href="#coin-background-pjc-section"></use></svg>
             </div>
             <div class="col-lg-3">
                 <h3>Protocol Agnostic Dapp</h3>
@@ -203,18 +201,18 @@
                 <h1>Use Cases</h1>
                 <p>Management in general aviation (GA) requires sustainable and completely new concepts.</p>
                 <ul class="list-unstyled list-inline">
-                    <li><img src="assets/images/carousel-icon-one.png"></li>
-                    <li><img src="assets/images/carousel-icon-one.png"></li>
-                    <li><img src="assets/images/carousel-icon-one.png"></li>
+                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Third<br />Party</span></li>
+                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Empty<br />Flights</span></li>
+                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Unused<br />Capacity</span></li>
                 </ul>
             </div>
             <div class="col-lg-6 inactive">
                 <h1>Airlines</h1>
                 <p>Airline ticket management urgently needs<br />technical innovation.</p>
                 <ul class="list-unstyled list-inline">
-                    <li><img src="assets/images/carousel-icon-one.png"></li>
-                    <li><img src="assets/images/carousel-icon-one.png"></li>
-                    <li><img src="assets/images/carousel-icon-one.png"></li>
+                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Booking<br />Portals</span></li>
+                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Travel<br />Agencies</span></li>
+                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>PJC For<br />Airlines</span></li>
                 </ul>
             </div>
         </div>

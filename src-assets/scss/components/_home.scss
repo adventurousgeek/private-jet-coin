@@ -51,6 +51,10 @@
 .pjc-service {
   background-color: #d7dde4;
   .container {
+    .coin-background-pjc-section {
+      width: 634px;
+      height: 634px;
+    }
     .row {
       .col-lg-3 {
         h3 {
@@ -163,6 +167,71 @@
           }
         }
       }
+      .col-lg-6 {
+        ul {
+          li {
+            width: 177px;
+            height: 223px;
+            position: relative;
+            .window-border-hide {
+              position: absolute;
+              width: 176px;
+              height: 223px;
+              left: 0;
+              top: 0;
+              z-index: 3;
+            }
+            .third-party-icon {
+              width: 76px;
+              height: 63px;
+              position: absolute;
+              top: 47px;
+              left: 0;
+              right: 0;
+              margin: auto;
+              transition-timing-function: ease;
+            }
+            .svg-window-hatchet {
+              width: 142px;
+              top: 175px;
+              position: absolute;
+              height: 15px;
+              left: 17px;
+              z-index: 1;
+              transition-timing-function: ease-in;
+              transition: 0.5s;
+            }
+            span {
+              position: absolute;
+              top: 122px;
+              z-index: 4;
+              font-size: 25px;
+              font-family: Rajdhani,sans-serif;
+              line-height: 23px;
+              text-transform: uppercase;
+              left: 0;
+              right: 0;
+              visibility: visible;
+              transition-timing-function: ease;
+            }
+            &:hover {
+              .svg-window-hatchet {
+                top: 47px;
+              }
+              .third-party-icon {
+                top: 85px;
+                width: 87px;
+                height: 76px;
+                left: 0;
+                right: 0;
+              }
+              span {
+                visibility: hidden;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -173,8 +242,8 @@
   background: #005dcd;
   position: relative;
   .world-map-svg {
-    width: 1300px;
-    height: 640px;
+    width: 1360px;
+    height: 770px;
     position: absolute;
     top: 160px;
     left: 0;
