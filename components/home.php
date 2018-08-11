@@ -412,7 +412,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="list-inline list-unstyled">
-                        <span><svg class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></span>
+                        <span class="left-span"><svg class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></span>
                         <li class="list-inline-item">Q1/18</li>
                         <li class="list-inline-item">Q2/18</li>
                         <li class="list-inline-item">Q3/18</li>

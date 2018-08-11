@@ -50,6 +50,9 @@
 }
 .pjc-service {
   background-color: #d7dde4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   .container {
     .coin-background-pjc-section {
       width: 634px;
@@ -65,6 +68,7 @@
       h1 {
         line-height: 39px;
         margin-bottom: 35px;
+        margin-top: -100px;
       }
       h5 {
         font-weight: 300;
@@ -283,6 +287,7 @@
   .container-fluid {
     .row {
       height: 50vh;
+      overflow: hidden;
       .vr-last {
         margin-top: -5px;
       }
@@ -526,6 +531,10 @@
       width: 100%;
       text-align: center;
       margin-bottom: 43px;
+      span.left-span {
+        float: left;
+
+      }
       .icon {
         display: inline-block;
         width: 1em;

@@ -104,7 +104,6 @@ var delay = false;
 $(document).on('mousewheel DOMMouseScroll', function(event) {
   event.preventDefault();
   if(delay) return;
-    debugger;
   delay = true;
   setTimeout(function(){delay = false},500)
 
