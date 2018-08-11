@@ -12,8 +12,8 @@
 
                 </div>
                 <div class="col-lg-3">
-                    <a>Free App Download iOS</a>
-                    <a>Free App Download Android</a>
+                    <a><svg class="app-store-footer"><use xlink:href="#app-store-footer"></use></svg></a>
+                    <a><svg class="play-store-icon-footer"><use xlink:href="#play-store-icon-footer"></use></svg></a>
                 </div>
             </div>
         </div>
@@ -51,8 +51,10 @@
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Terms & Conditions</a></li>
                     </ul>
-                    <img src="assets/images/language-icon.png">
-                    <span>English</span>
+                    <div class="language-icon-added">
+                        <img src="assets/images/language-icon.png">
+                        <span>English</span>
+                    </div>
                 </div>
             </div>
         </div>

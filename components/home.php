@@ -202,17 +202,17 @@
                 <p>Management in general aviation (GA) requires sustainable and completely new concepts.</p>
                 <ul class="list-unstyled list-inline">
                     <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Third<br />Party</span></li>
-                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Empty<br />Flights</span></li>
-                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Unused<br />Capacity</span></li>
+                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#empty-flights-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Empty<br />Flights</span></li>
+                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#unused-cpacity-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Unused<br />Capacity</span></li>
                 </ul>
             </div>
             <div class="col-lg-6 inactive">
                 <h1>Airlines</h1>
                 <p>Airline ticket management urgently needs<br />technical innovation.</p>
-                <ul class="list-unstyled list-inline">
-                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Booking<br />Portals</span></li>
-                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Travel<br />Agencies</span></li>
-                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>PJC For<br />Airlines</span></li>
+                <ul class="list-unstyled list-inline right-airlines">
+                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#booking-portals-svg"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Booking<br />Portals</span></li>
+                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#travel-agencies-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Travel<br />Agencies</span></li>
+                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#pjc-solution-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>PJC For<br />Airlines</span></li>
                 </ul>
             </div>
         </div>
@@ -355,7 +355,7 @@
                             <h1>Q3/18</h1>
                             <p>JUL</p>
                             <img src="assets/images/road-map-database.png">
-                            <p>Building Global Flight Database</p>
+                            <p><span>Building Global Flight Database</span></p>
                         </div>
                         <div class="sub-div">
                             <img src="assets/images/plane-icon.png">
@@ -370,7 +370,7 @@
                             <h1>Q3/18</h1>
                             <p>AUG</p>
                             <img src="assets/images/road-map-aviation.png">
-                            <p>Development of Aviation Portal</p>
+                            <p><span>Development of Aviation Portal</span></p>
                         </div>
                         <div class="sub-div">
                             <img src="assets/images/plane-icon.png">
@@ -385,7 +385,7 @@
                             <h1>Q3/18</h1>
                             <p>SEP</p>
                             <img src="assets/images/road-map-public-launch.png">
-                            <p>PJC API Public Launch</p>
+                            <p><span>PJC API Public Launch</span></p>
                         </div>
                         <div class="sub-div">
                             <img src="assets/images/plane-icon.png">
@@ -400,9 +400,45 @@
                             <h1>Q4/18</h1>
                             <p>OCT</p>
                             <img src="assets/images/road-map-sales-force.png">
-                            <p>PJC Salesforce integration</p>
+                            <p><span>PJC Salesforce integration</span></p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="road-map-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline list-unstyled">
+                        <span><svg class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></span>
+                        <li class="list-inline-item">Q1/18</li>
+                        <li class="list-inline-item">Q2/18</li>
+                        <li class="list-inline-item">Q3/18</li>
+                        <li class="list-inline-item">Q4/18</li>
+                        <li class="list-inline-item">Q1/19</li>
+                        <li class="list-inline-item">Q2/19</li>
+                        <li class="list-inline-item">Q3/19</li>
+                        <li class="list-inline-item">Q4/19</li>
+                        <span><svg class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg></span>
+                    </ul>
+                    <form _lpchecked="1">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <input type="text" class="form-control" placeholder="Email" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+                            </div>
+                            <div class="col-lg-3">
+                                <input type="text" class="form-control" placeholder="ETH Address">
+                            </div>
+                            <div class="col-lg-3">
+                                <input type="text" class="form-control" placeholder="Amount">
+                            </div>
+                            <div class="col-lg-3">
+                                <button type="submit" class="btn btn-primary">Hop On</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
