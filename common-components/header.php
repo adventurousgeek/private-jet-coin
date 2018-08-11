@@ -18,7 +18,7 @@
 <body>
 <?php require_once "svg-icons.php"; ?>
 
-<header class="site-header">
+<header class="site-header hide">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
