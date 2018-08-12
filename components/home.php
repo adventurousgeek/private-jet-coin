@@ -199,22 +199,22 @@
 <section class="use-cases universal-section light-colors">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div id="usecase-section" class="col-lg-6">
                 <h1>Use Cases</h1>
                 <p>Management in general aviation (GA) requires sustainable and completely new concepts.</p>
                 <ul class="list-unstyled list-inline">
-                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Third<br />Party</span></li>
-                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#empty-flights-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Empty<br />Flights</span></li>
-                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#unused-cpacity-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Unused<br />Capacity</span></li>
+                    <li id="usecase-1" ><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Third<br />Party</span></li>
+                    <li id="usecase-2"><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#empty-flights-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Empty<br />Flights</span></li>
+                    <li id="usecase-3"><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#unused-cpacity-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Unused<br />Capacity</span></li>
                 </ul>
             </div>
-            <div class="col-lg-6 inactive">
+            <div id="airline-section" class="col-lg-6 inactive">
                 <h1>Airlines</h1>
                 <p>Airline ticket management urgently needs<br />technical innovation.</p>
                 <ul class="list-unstyled list-inline right-airlines">
-                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#booking-portals-svg"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Booking<br />Portals</span></li>
-                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#travel-agencies-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Travel<br />Agencies</span></li>
-                    <li><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#pjc-solution-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>PJC For<br />Airlines</span></li>
+                    <li id="airlines-1"><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#booking-portals-svg"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Booking<br />Portals</span></li>
+                    <li id="airlines-2"><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#travel-agencies-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Travel<br />Agencies</span></li>
+                    <li id="airlines-3"><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#pjc-solution-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>PJC For<br />Airlines</span></li>
                 </ul>
             </div>
         </div>

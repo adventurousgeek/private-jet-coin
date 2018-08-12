@@ -50,6 +50,89 @@ $( document ).ready(function() {
       setTimeout(nextImage, 15);
       $('#jet-animate_prepose').attr('src', images[icounter]);
 
+
+      // on use cases button click
+      $('#usecase-1').click(function() {
+
+        $('#div_4').addClass('hide');
+        $('#div_5').addClass('hide');
+        $('#div_6').addClass('hide');
+
+        $('#usecase-section').removeClass('inactive');
+        $('#airline-section').addClass('inactive');
+
+        $('#div_1').removeClass('hide');
+        $('#div_2').addClass('hide');
+        $('#div_3').addClass('hide');
+      });
+      $('#usecase-2').click(function() {
+        
+        
+        $('#div_4').addClass('hide');
+        $('#div_5').addClass('hide');
+        $('#div_6').addClass('hide');
+
+        $('#usecase-section').removeClass('inactive');
+        $('#airline-section').addClass('inactive');
+
+        $('#div_1').addClass('hide');
+        $('#div_2').removeClass('hide');
+        $('#div_3').addClass('hide');
+      });
+      $('#usecase-3').click(function() {
+        
+        $('#div_4').addClass('hide');
+        $('#div_5').addClass('hide');
+        $('#div_6').addClass('hide');
+
+        $('#usecase-section').removeClass('inactive');
+        $('#airline-section').addClass('inactive');
+        
+        $('#div_1').addClass('hide');
+        $('#div_2').addClass('hide');
+        $('#div_3').removeClass('hide');
+      });
+
+      $('#airlines-1').click(function() {
+        
+        $('#div_1').addClass('hide');
+        $('#div_2').addClass('hide');
+        $('#div_3').addClass('hide');
+
+        $('#usecase-section').addClass('inactive');
+        $('#airline-section').removeClass('inactive');
+
+        $('#div_4').removeClass('hide');
+        $('#div_5').addClass('hide');
+        $('#div_6').addClass('hide');
+      });
+      $('#airlines-2').click(function() {
+                
+        $('#div_1').addClass('hide');
+        $('#div_2').addClass('hide');
+        $('#div_3').addClass('hide');
+
+        $('#usecase-section').addClass('inactive');
+        $('#airline-section').removeClass('inactive');
+
+        $('#div_4').addClass('hide');
+        $('#div_5').removeClass('hide');
+        $('#div_6').addClass('hide');
+      });
+      $('#airlines-3').click(function() {
+        
+        $('#div_1').addClass('hide');
+        $('#div_2').addClass('hide');
+        $('#div_3').addClass('hide');
+
+        $('#usecase-section').addClass('inactive');
+        $('#airline-section').removeClass('inactive');
+
+        $('#div_4').addClass('hide');
+        $('#div_5').addClass('hide');
+        $('#div_6').removeClass('hide');
+      });
+
 });
 
 
