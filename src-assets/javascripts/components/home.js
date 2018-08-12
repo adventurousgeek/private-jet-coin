@@ -55,6 +55,14 @@ $( document ).ready(function() {
 
 var delay = false;
 
+var iCounterPrePose = 0;
+var iCounterPose = 105;
+var iCounterLand = 256;
+
+var mastHeadTimeOut;
+var pjcServiceTimeOut;
+var pjcEcoSysTimeOut;
+
 $(document).on('mousewheel DOMMouseScroll', function(event) {
     event.preventDefault();
     if(delay) return;
@@ -85,17 +93,21 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
     clearInterval(scrollTimeout);
     var scrollTimeout = setTimeout(function() {
         
-        if(i >= 3) 
-            $('#jet-animate_landing').addClass('hide');
-        if(i < 3) 
-            $('#jet-animate_landing').removeClass('hide');
+        // if(i >= 3) 
+        //     $('#jet-animate_landing').addClass('hide');
+        // if(i < 3) 
+        //     $('#jet-animate_landing').removeClass('hide');
         
-        var mastHeadTimeOut;
-        var pjcServiceTimeOut;
-        var pjcEcoSysTimeOut;
+        // var mastHeadTimeOut;
+        // var pjcServiceTimeOut;
+        // var pjcEcoSysTimeOut;
         
         if(a[i].id == "mast-head") {
-            var icounter = 0;
+
+            if(wd < 0 && iCounterPrepose > 0)
+                iCounterPose = 0;
+
+            //var icounter = 0;
             clearTimeout(pjcServiceTimeOut);
             clearTimeout(pjcEcoSysTimeOut);
 
@@ -105,18 +117,28 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
             
             
             function nextImage() {
-                    icounter++;
-                    $('#jet-animate_prepose').attr('src', images[icounter]);
-                    if(icounter<104)
+                    // icounter++;
+                    // $('#jet-animate_prepose').attr('src', images[icounter]);
+                    iCounterPrePose++;
+                    $('#jet-animate_prepose').attr('src', images[iCounterPrePose]);
+                    
+                    // if(icounter<104)
+                    if(iCounterPrePose<104)
                         mastHeadTimeOut = setTimeout(nextImage, 15);
+
+                    console.log('iCounterPrePose', iCounterPrePose);
             }
             setTimeout(nextImage, 15);
-            $('#jet-animate_prepose').attr('src', images[icounter]);
+            //$('#jet-animate_prepose').attr('src', images[icounter]);
+            $('#jet-animate_prepose').attr('src', images[iCounterPrePose]);
+                    
         }
         if(a[i].id == "pjc-service")
         {   
-            
-            var icounter = 105;
+            if(wd < 0 && iCounterPose >= 105)
+                iCounterPose = 105;
+
+            //var icounter = 105;
             clearTimeout(mastHeadTimeOut);
             clearTimeout(pjcEcoSysTimeOut);
 
@@ -125,17 +147,24 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
             $('#jet-animate_landing').addClass('hide');
 
             function nextImage() {
-                icounter++;
-                $('#jet-animate_pose').attr('src', images[icounter]);
-                if(icounter<=255)
+                //icounter++;
+                //$('#jet-animate_pose').attr('src', images[icounter]);
+                iCounterPose++;
+                $('#jet-animate_pose').attr('src', images[iCounterPose]);
+                //if(icounter<=255)
+                if(iCounterPose<=255)
                     pjcServiceTimeOut = setTimeout(nextImage, 15);
+
             }
             setTimeout(nextImage, 15);
-            $('#jet-animate_pose').attr('src', images[icounter]);
+            //$('#jet-animate_pose').attr('src', images[icounter]);
+            $('#jet-animate_pose').attr('src', images[iCounterPose]);
         }
         if(a[i].id == "pjc-ecosystem")
         {
-            var icounter = 256;
+            if(wd < 0 && iCounterLand >= 256)
+                iCounterLand = 256;
+            //var icounter = 256;
             clearTimeout(mastHeadTimeOut);
             clearTimeout(pjcServiceTimeOut);
             
@@ -144,14 +173,27 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
             $('#jet-animate_landing').removeClass('hide');
 
             function nextImage() {
-                icounter++;
-                $('#jet-animate_landing').attr('src', images[icounter]);
-                if(icounter<=404)
+                // icounter++;
+                // $('#jet-animate_landing').attr('src', images[icounter]);
+                iCounterLand++;
+                $('#jet-animate_landing').attr('src', images[iCounterLand]);
+                
+                //if(icounter<=404)
+                if(iCounterLand<=404)
                     pjcEcoSysTimeOut = setTimeout(nextImage, 15);
+
             }
             setTimeout(nextImage, 15);
-            $('#jet-animate_landing').attr('src', images[icounter]);
+            //$('#jet-animate_landing').attr('src', images[icounter]);
+            $('#jet-animate_landing').attr('src', images[iCounterLand]);
         }
+        if(i >= 3) {
+            clearTimeout(pjcEcoSysTimeOut);
+            $('#jet-animate_landing').addClass('hide');
+        }
+        if(i < 3) 
+            $('#jet-animate_landing').removeClass('hide');
+
     }, 250);
 });  
 function nextInfo(divhide,divshow) {
