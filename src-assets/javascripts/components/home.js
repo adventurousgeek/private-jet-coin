@@ -93,19 +93,11 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
     clearInterval(scrollTimeout);
     var scrollTimeout = setTimeout(function() {
         
-        // if(i >= 3) 
-        //     $('#jet-animate_landing').addClass('hide');
-        // if(i < 3) 
-        //     $('#jet-animate_landing').removeClass('hide');
-        
-        // var mastHeadTimeOut;
-        // var pjcServiceTimeOut;
-        // var pjcEcoSysTimeOut;
         
         if(a[i].id == "mast-head") {
 
-            if(wd < 0 && iCounterPrepose > 0)
-                iCounterPose = 0;
+            if(iCounterPrePose >= 104)
+                iCounterPrePose = 0;
 
             //var icounter = 0;
             clearTimeout(pjcServiceTimeOut);
@@ -135,7 +127,7 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
         }
         if(a[i].id == "pjc-service")
         {   
-            if(wd < 0 && iCounterPose >= 105)
+            if(iCounterPose >= 255)
                 iCounterPose = 105;
 
             //var icounter = 105;
@@ -162,8 +154,9 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
         }
         if(a[i].id == "pjc-ecosystem")
         {
-            if(wd < 0 && iCounterLand >= 256)
+            if(iCounterLand >= 404)
                 iCounterLand = 256;
+        
             //var icounter = 256;
             clearTimeout(mastHeadTimeOut);
             clearTimeout(pjcServiceTimeOut);
