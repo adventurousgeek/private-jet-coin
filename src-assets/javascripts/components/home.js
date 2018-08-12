@@ -121,7 +121,6 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
                 if(iCounterPrePose<104)
                     mastHeadTimeOut = setTimeout(nextImage, 15);
                 
-                console.log('iCounterPrePose', iCounterPrePose);
             }
             setTimeout(nextImage, 15);
             //$('#jet-animate_prepose').attr('src', images[icounter]);
@@ -186,10 +185,13 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
         if(i >= 3) {
             clearTimeout(pjcEcoSysTimeOut);
             $('#jet-animate_landing').addClass('hide');
+            $('#wrapper').css('z-index', -2);
         }
-        if(i < 3) 
+        if(i < 3) {
             $('#jet-animate_landing').removeClass('hide');
-
+            $('#wrapper').css('z-index', 5);
+        }
+        
     }, 250);
 });  
 function nextInfo(divhide,divshow) {
