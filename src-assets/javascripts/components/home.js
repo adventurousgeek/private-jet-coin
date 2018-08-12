@@ -89,7 +89,10 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
         scrollTop: a[i].offsetTop
         }, 500);
     }
-    
+
+    if(i < 0) 
+        i = 0;
+
     clearInterval(scrollTimeout);
     var scrollTimeout = setTimeout(function() {
         
@@ -109,16 +112,16 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
             
             
             function nextImage() {
-                    // icounter++;
-                    // $('#jet-animate_prepose').attr('src', images[icounter]);
-                    iCounterPrePose++;
-                    $('#jet-animate_prepose').attr('src', images[iCounterPrePose]);
-                    
-                    // if(icounter<104)
-                    if(iCounterPrePose<104)
-                        mastHeadTimeOut = setTimeout(nextImage, 15);
-
-                    console.log('iCounterPrePose', iCounterPrePose);
+                // icounter++;
+                // $('#jet-animate_prepose').attr('src', images[icounter]);
+                iCounterPrePose++;
+                $('#jet-animate_prepose').attr('src', images[iCounterPrePose]);
+                
+                // if(icounter<104)
+                if(iCounterPrePose<104)
+                    mastHeadTimeOut = setTimeout(nextImage, 15);
+                
+                console.log('iCounterPrePose', iCounterPrePose);
             }
             setTimeout(nextImage, 15);
             //$('#jet-animate_prepose').attr('src', images[icounter]);
