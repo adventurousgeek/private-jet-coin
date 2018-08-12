@@ -93,6 +93,7 @@ $( document ).ready(function() {
         $('#div_3').removeClass('hide');
       });
 
+      // on airlines button click
       $('#airlines-1').click(function() {
         
         $('#div_1').addClass('hide');
