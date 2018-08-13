@@ -190,7 +190,7 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
         if(a[i].id == "mast-head") {
 
             if(wd < 0) {
-                if(iCounterPrePose >= 104)
+                //if(iCounterPrePose >= 104)
                     iCounterPrePose = 0;
             
                 //var icounter = 0;
@@ -220,11 +220,11 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
             }
             else {
             
-                if(iCounterPoseBtoU <= 105)
+                //if(iCounterPoseBtoU <= 105)
                     iCounterPoseBtoU = 255;
 
                 //var icounter = 105;
-                clearTimeout(mastHeadTimeOut);
+                //clearTimeout(mastHeadTimeOut);
                 clearTimeout(pjcEcoSysTimeOut);
 
                 $('#jet-animate_prepose').addClass('hide');
@@ -250,7 +250,7 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
         if(a[i].id == "pjc-service")
         {   
             if(wd < 0) {
-                if(iCounterPose >= 255)
+                //if(iCounterPose >= 255)
                     iCounterPose = 105;
 
                 //var icounter = 105;
@@ -269,7 +269,7 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
                     //if(icounter<=255)
                     if(iCounterPose<=255)
                         pjcServiceTimeOut = setTimeout(nextImage, 15);
-
+                    console.log('iCounterPose', iCounterPose);
                 }
                 setTimeout(nextImage, 15);
                 //$('#jet-animate_pose').attr('src', images[icounter]);
@@ -277,12 +277,12 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
             }
             else {
                 
-                if(iCounterLandBtoU <= 256)
+                //if(iCounterLandBtoU <= 256)
                     iCounterLandBtoU = 404;
             
                 //var icounter = 256;
-                clearTimeout(mastHeadTimeOut);
-                clearTimeout(pjcServiceTimeOut);
+                //clearTimeout(mastHeadTimeOut);
+                //clearTimeout(pjcServiceTimeOut);
                 
                 $('#jet-animate_prepose').addClass('hide');
                 $('#jet-animate_pose').addClass('hide');
@@ -308,7 +308,7 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
         if(a[i].id == "pjc-ecosystem")
         {
             if(wd < 0) {
-                if(iCounterLand >= 404)
+                //if(iCounterLand >= 404)
                     iCounterLand = 256;
             
                 //var icounter = 256;
