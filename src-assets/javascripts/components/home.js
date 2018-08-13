@@ -140,8 +140,14 @@ $( document ).ready(function() {
 var delay = false;
 
 var iCounterPrePose = 0;
+var iCounterPrePoseBtoU = 104;
+
 var iCounterPose = 105;
+var iCounterPoseBtoU = 255;
+
 var iCounterLand = 256;
+var iCounterLandBtoU = 404;
+
 
 var mastHeadTimeOut;
 var pjcServiceTimeOut;
@@ -183,88 +189,176 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
         
         if(a[i].id == "mast-head") {
 
-            if(iCounterPrePose >= 104)
-                iCounterPrePose = 0;
-
-            //var icounter = 0;
-            clearTimeout(pjcServiceTimeOut);
-            clearTimeout(pjcEcoSysTimeOut);
-
-            $('#jet-animate_prepose').removeClass('hide');
-            $('#jet-animate_pose').addClass('hide');
-            $('#jet-animate_landing').addClass('hide');
+            if(wd < 0) {
+                //if(iCounterPrePose >= 104)
+                    iCounterPrePose = 0;
             
-            
-            function nextImage() {
-                // icounter++;
-                // $('#jet-animate_prepose').attr('src', images[icounter]);
-                iCounterPrePose++;
-                $('#jet-animate_prepose').attr('src', images[iCounterPrePose]);
+                //var icounter = 0;
+                clearTimeout(pjcServiceTimeOut);
+                clearTimeout(pjcEcoSysTimeOut);
+
+                $('#jet-animate_prepose').removeClass('hide');
+                $('#jet-animate_pose').addClass('hide');
+                $('#jet-animate_landing').addClass('hide');
                 
-                // if(icounter<104)
-                if(iCounterPrePose<104)
-                    mastHeadTimeOut = setTimeout(nextImage, 15);
                 
-            }
-            setTimeout(nextImage, 15);
-            //$('#jet-animate_prepose').attr('src', images[icounter]);
-            $('#jet-animate_prepose').attr('src', images[iCounterPrePose]);
+                function nextImage() {
+                    // icounter++;
+                    // $('#jet-animate_prepose').attr('src', images[icounter]);
+                    iCounterPrePose++;
+                    $('#jet-animate_prepose').attr('src', images[iCounterPrePose]);
                     
+                    // if(icounter<104)
+                    if(iCounterPrePose<104)
+                        mastHeadTimeOut = setTimeout(nextImage, 15);
+                    
+                }
+                setTimeout(nextImage, 15);
+                //$('#jet-animate_prepose').attr('src', images[icounter]);
+                $('#jet-animate_prepose').attr('src', images[iCounterPrePose]);
+            
+            }
+            else {
+                //if(iCounterPrePoseBtoU <= 0)
+                    iCounterPrePoseBtoU = 104;
+                    
+                clearTimeout(pjcServiceTimeOut);
+                clearTimeout(pjcEcoSysTimeOut);
+
+                $('#jet-animate_prepose').removeClass('hide');
+                $('#jet-animate_pose').addClass('hide');
+                $('#jet-animate_landing').addClass('hide');
+                
+                
+                function nextImage() {
+                    // icounter++;
+                    // $('#jet-animate_prepose').attr('src', images[icounter]);
+                    iCounterPrePoseBtoU--;
+                    $('#jet-animate_prepose').attr('src', images[iCounterPrePoseBtoU]);
+                    
+                    // if(icounter<104)
+                    if(iCounterPrePoseBtoU>0)
+                        mastHeadTimeOut = setTimeout(nextImage, 15);
+                    
+                }
+                setTimeout(nextImage, 15);
+                //$('#jet-animate_prepose').attr('src', images[icounter]);
+                $('#jet-animate_prepose').attr('src', images[iCounterPrePoseBtoU]);
+            
+            }
+            
         }
         if(a[i].id == "pjc-service")
         {   
-            if(iCounterPose >= 255)
-                iCounterPose = 105;
+            if(wd < 0) {
+                //if(iCounterPose >= 255)
+                    iCounterPose = 105;
 
-            //var icounter = 105;
-            clearTimeout(mastHeadTimeOut);
-            clearTimeout(pjcEcoSysTimeOut);
+                //var icounter = 105;
+                clearTimeout(mastHeadTimeOut);
+                clearTimeout(pjcEcoSysTimeOut);
 
-            $('#jet-animate_prepose').addClass('hide');
-            $('#jet-animate_pose').removeClass('hide');
-            $('#jet-animate_landing').addClass('hide');
+                $('#jet-animate_prepose').addClass('hide');
+                $('#jet-animate_pose').removeClass('hide');
+                $('#jet-animate_landing').addClass('hide');
 
-            function nextImage() {
-                //icounter++;
+                function nextImage() {
+                    //icounter++;
+                    //$('#jet-animate_pose').attr('src', images[icounter]);
+                    iCounterPose++;
+                    $('#jet-animate_pose').attr('src', images[iCounterPose]);
+                    //if(icounter<=255)
+                    if(iCounterPose<=255)
+                        pjcServiceTimeOut = setTimeout(nextImage, 15);
+
+                }
+                setTimeout(nextImage, 15);
                 //$('#jet-animate_pose').attr('src', images[icounter]);
-                iCounterPose++;
                 $('#jet-animate_pose').attr('src', images[iCounterPose]);
-                //if(icounter<=255)
-                if(iCounterPose<=255)
-                    pjcServiceTimeOut = setTimeout(nextImage, 15);
-
             }
-            setTimeout(nextImage, 15);
-            //$('#jet-animate_pose').attr('src', images[icounter]);
-            $('#jet-animate_pose').attr('src', images[iCounterPose]);
+            else {
+                //if(iCounterPoseBtoU <= 105)
+                    iCounterPoseBtoU = 255;
+
+                //var icounter = 105;
+                clearTimeout(mastHeadTimeOut);
+                clearTimeout(pjcEcoSysTimeOut);
+
+                $('#jet-animate_prepose').addClass('hide');
+                $('#jet-animate_pose').removeClass('hide');
+                $('#jet-animate_landing').addClass('hide');
+
+                function nextImage() {
+                    //icounter++;
+                    //$('#jet-animate_pose').attr('src', images[icounter]);
+                    iCounterPoseBtoU--;
+                    $('#jet-animate_pose').attr('src', images[iCounterPoseBtoU]);
+                    //if(icounter<=255)
+                    if(iCounterPoseBtoU>105)
+                        pjcServiceTimeOut = setTimeout(nextImage, 15);
+                }
+                setTimeout(nextImage, 15);
+                //$('#jet-animate_pose').attr('src', images[icounter]);
+                $('#jet-animate_pose').attr('src', images[iCounterPoseBtoU]);
+            }
+            
         }
         if(a[i].id == "pjc-ecosystem")
         {
-            if(iCounterLand >= 404)
-                iCounterLand = 256;
-        
-            //var icounter = 256;
-            clearTimeout(mastHeadTimeOut);
-            clearTimeout(pjcServiceTimeOut);
+            if(wd < 0) {
+                //if(iCounterLand >= 404)
+                    iCounterLand = 256;
             
-            $('#jet-animate_prepose').addClass('hide');
-            $('#jet-animate_pose').addClass('hide');
-            $('#jet-animate_landing').removeClass('hide');
-
-            function nextImage() {
-                // icounter++;
-                // $('#jet-animate_landing').attr('src', images[icounter]);
-                iCounterLand++;
-                $('#jet-animate_landing').attr('src', images[iCounterLand]);
+                //var icounter = 256;
+                clearTimeout(mastHeadTimeOut);
+                clearTimeout(pjcServiceTimeOut);
                 
-                //if(icounter<=404)
-                if(iCounterLand<=404)
-                    pjcEcoSysTimeOut = setTimeout(nextImage, 15);
+                $('#jet-animate_prepose').addClass('hide');
+                $('#jet-animate_pose').addClass('hide');
+                $('#jet-animate_landing').removeClass('hide');
 
+                function nextImage() {
+                    // icounter++;
+                    // $('#jet-animate_landing').attr('src', images[icounter]);
+                    iCounterLand++;
+                    $('#jet-animate_landing').attr('src', images[iCounterLand]);
+                    
+                    //if(icounter<=404)
+                    if(iCounterLand<=404)
+                        pjcEcoSysTimeOut = setTimeout(nextImage, 15);
+
+                }
+                setTimeout(nextImage, 15);
+                //$('#jet-animate_landing').attr('src', images[icounter]);
+                $('#jet-animate_landing').attr('src', images[iCounterLand]);
             }
-            setTimeout(nextImage, 15);
-            //$('#jet-animate_landing').attr('src', images[icounter]);
-            $('#jet-animate_landing').attr('src', images[iCounterLand]);
+            else {
+                //if(iCounterLandBtoU <= 256)
+                    iCounterLandBtoU = 404;
+            
+                //var icounter = 256;
+                clearTimeout(mastHeadTimeOut);
+                clearTimeout(pjcServiceTimeOut);
+                
+                $('#jet-animate_prepose').addClass('hide');
+                $('#jet-animate_pose').addClass('hide');
+                $('#jet-animate_landing').removeClass('hide');
+
+                function nextImage() {
+                    // icounter++;
+                    // $('#jet-animate_landing').attr('src', images[icounter]);
+                    iCounterLandBtoU--;
+                    $('#jet-animate_landing').attr('src', images[iCounterLandBtoU]);
+                    
+                    //if(icounter<=404)
+                    if(iCounterLandBtoU>256)
+                        pjcEcoSysTimeOut = setTimeout(nextImage, 15);
+
+                }
+                setTimeout(nextImage, 15);
+                //$('#jet-animate_landing').attr('src', images[icounter]);
+                $('#jet-animate_landing').attr('src', images[iCounterLandBtoU]);
+            }
         }
         if(i >= 3) {
             clearTimeout(pjcEcoSysTimeOut);
