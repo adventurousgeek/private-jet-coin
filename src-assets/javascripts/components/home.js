@@ -190,7 +190,7 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
         if(a[i].id == "mast-head") {
 
             if(wd < 0) {
-                //if(iCounterPrePose >= 104)
+                if(iCounterPrePose >= 104)
                     iCounterPrePose = 0;
             
                 //var icounter = 0;
@@ -220,7 +220,7 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
             }
             else {
             
-                //if(iCounterPoseBtoU <= 105)
+                if(iCounterPoseBtoU <= 105)
                     iCounterPoseBtoU = 255;
 
                 //var icounter = 105;
@@ -250,7 +250,7 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
         if(a[i].id == "pjc-service")
         {   
             if(wd < 0) {
-                //if(iCounterPose >= 255)
+                if(iCounterPose >= 255)
                     iCounterPose = 105;
 
                 //var icounter = 105;
@@ -277,7 +277,7 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
             }
             else {
                 
-                //if(iCounterLandBtoU <= 256)
+                if(iCounterLandBtoU <= 256)
                     iCounterLandBtoU = 404;
             
                 //var icounter = 256;
@@ -308,7 +308,7 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
         if(a[i].id == "pjc-ecosystem")
         {
             if(wd < 0) {
-                //if(iCounterLand >= 404)
+                if(iCounterLand >= 404)
                     iCounterLand = 256;
             
                 //var icounter = 256;
