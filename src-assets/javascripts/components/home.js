@@ -219,32 +219,56 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
             
             }
             else {
-                //if(iCounterPrePoseBtoU <= 0)
-                    iCounterPrePoseBtoU = 104;
+            //     //if(iCounterPrePoseBtoU <= 0)
+            //         iCounterPrePoseBtoU = 104;
                     
-                clearTimeout(pjcServiceTimeOut);
+            //     clearTimeout(pjcServiceTimeOut);
+            //     clearTimeout(pjcEcoSysTimeOut);
+
+            //     $('#jet-animate_prepose').removeClass('hide');
+            //     $('#jet-animate_pose').addClass('hide');
+            //     $('#jet-animate_landing').addClass('hide');
+                
+                
+            //     function nextImage() {
+            //         // icounter++;
+            //         // $('#jet-animate_prepose').attr('src', images[icounter]);
+            //         iCounterPrePoseBtoU--;
+            //         $('#jet-animate_prepose').attr('src', images[iCounterPrePoseBtoU]);
+                    
+            //         // if(icounter<104)
+            //         if(iCounterPrePoseBtoU>0)
+            //             mastHeadTimeOut = setTimeout(nextImage, 15);
+                    
+            //     }
+            //     setTimeout(nextImage, 15);
+            //     //$('#jet-animate_prepose').attr('src', images[icounter]);
+            //     $('#jet-animate_prepose').attr('src', images[iCounterPrePoseBtoU]);
+            
+                //if(iCounterPoseBtoU <= 105)
+                    iCounterPoseBtoU = 255;
+
+                //var icounter = 105;
+                clearTimeout(mastHeadTimeOut);
                 clearTimeout(pjcEcoSysTimeOut);
 
-                $('#jet-animate_prepose').removeClass('hide');
-                $('#jet-animate_pose').addClass('hide');
+                $('#jet-animate_prepose').addClass('hide');
+                $('#jet-animate_pose').removeClass('hide');
                 $('#jet-animate_landing').addClass('hide');
-                
-                
+
                 function nextImage() {
-                    // icounter++;
-                    // $('#jet-animate_prepose').attr('src', images[icounter]);
-                    iCounterPrePoseBtoU--;
-                    $('#jet-animate_prepose').attr('src', images[iCounterPrePoseBtoU]);
-                    
-                    // if(icounter<104)
-                    if(iCounterPrePoseBtoU>0)
-                        mastHeadTimeOut = setTimeout(nextImage, 15);
-                    
+                    //icounter++;
+                    //$('#jet-animate_pose').attr('src', images[icounter]);
+                    iCounterPoseBtoU--;
+                    $('#jet-animate_pose').attr('src', images[iCounterPoseBtoU]);
+                    //if(icounter<=255)
+                    if(iCounterPoseBtoU>105)
+                        pjcServiceTimeOut = setTimeout(nextImage, 15);
                 }
                 setTimeout(nextImage, 15);
-                //$('#jet-animate_prepose').attr('src', images[icounter]);
-                $('#jet-animate_prepose').attr('src', images[iCounterPrePoseBtoU]);
-            
+                //$('#jet-animate_pose').attr('src', images[icounter]);
+                $('#jet-animate_pose').attr('src', images[iCounterPoseBtoU]);
+
             }
             
         }
@@ -277,29 +301,55 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
                 $('#jet-animate_pose').attr('src', images[iCounterPose]);
             }
             else {
-                //if(iCounterPoseBtoU <= 105)
-                    iCounterPoseBtoU = 255;
+                // //if(iCounterPoseBtoU <= 105)
+                //     iCounterPoseBtoU = 255;
 
-                //var icounter = 105;
+                // //var icounter = 105;
+                // clearTimeout(mastHeadTimeOut);
+                // clearTimeout(pjcEcoSysTimeOut);
+
+                // $('#jet-animate_prepose').addClass('hide');
+                // $('#jet-animate_pose').removeClass('hide');
+                // $('#jet-animate_landing').addClass('hide');
+
+                // function nextImage() {
+                //     //icounter++;
+                //     //$('#jet-animate_pose').attr('src', images[icounter]);
+                //     iCounterPoseBtoU--;
+                //     $('#jet-animate_pose').attr('src', images[iCounterPoseBtoU]);
+                //     //if(icounter<=255)
+                //     if(iCounterPoseBtoU>105)
+                //         pjcServiceTimeOut = setTimeout(nextImage, 15);
+                // }
+                // setTimeout(nextImage, 15);
+                // //$('#jet-animate_pose').attr('src', images[icounter]);
+                // $('#jet-animate_pose').attr('src', images[iCounterPoseBtoU]);
+
+                //if(iCounterLandBtoU <= 256)
+                iCounterLandBtoU = 404;
+            
+                //var icounter = 256;
                 clearTimeout(mastHeadTimeOut);
-                clearTimeout(pjcEcoSysTimeOut);
-
+                clearTimeout(pjcServiceTimeOut);
+                
                 $('#jet-animate_prepose').addClass('hide');
-                $('#jet-animate_pose').removeClass('hide');
-                $('#jet-animate_landing').addClass('hide');
+                $('#jet-animate_pose').addClass('hide');
+                $('#jet-animate_landing').removeClass('hide');
 
                 function nextImage() {
-                    //icounter++;
-                    //$('#jet-animate_pose').attr('src', images[icounter]);
-                    iCounterPoseBtoU--;
-                    $('#jet-animate_pose').attr('src', images[iCounterPoseBtoU]);
-                    //if(icounter<=255)
-                    if(iCounterPoseBtoU>105)
-                        pjcServiceTimeOut = setTimeout(nextImage, 15);
+                    // icounter++;
+                    // $('#jet-animate_landing').attr('src', images[icounter]);
+                    iCounterLandBtoU--;
+                    $('#jet-animate_landing').attr('src', images[iCounterLandBtoU]);
+                    
+                    //if(icounter<=404)
+                    if(iCounterLandBtoU>256)
+                        pjcEcoSysTimeOut = setTimeout(nextImage, 15);
+
                 }
                 setTimeout(nextImage, 15);
-                //$('#jet-animate_pose').attr('src', images[icounter]);
-                $('#jet-animate_pose').attr('src', images[iCounterPoseBtoU]);
+                //$('#jet-animate_landing').attr('src', images[icounter]);
+                $('#jet-animate_landing').attr('src', images[iCounterLandBtoU]);
             }
             
         }
@@ -333,31 +383,34 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
                 $('#jet-animate_landing').attr('src', images[iCounterLand]);
             }
             else {
-                //if(iCounterLandBtoU <= 256)
-                    iCounterLandBtoU = 404;
+                // //if(iCounterLandBtoU <= 256)
+                //     iCounterLandBtoU = 404;
             
-                //var icounter = 256;
-                clearTimeout(mastHeadTimeOut);
-                clearTimeout(pjcServiceTimeOut);
+                // //var icounter = 256;
+                // clearTimeout(mastHeadTimeOut);
+                // clearTimeout(pjcServiceTimeOut);
                 
-                $('#jet-animate_prepose').addClass('hide');
-                $('#jet-animate_pose').addClass('hide');
-                $('#jet-animate_landing').removeClass('hide');
+                // $('#jet-animate_prepose').addClass('hide');
+                // $('#jet-animate_pose').addClass('hide');
+                // $('#jet-animate_landing').removeClass('hide');
 
-                function nextImage() {
-                    // icounter++;
-                    // $('#jet-animate_landing').attr('src', images[icounter]);
-                    iCounterLandBtoU--;
-                    $('#jet-animate_landing').attr('src', images[iCounterLandBtoU]);
+                // function nextImage() {
+                //     // icounter++;
+                //     // $('#jet-animate_landing').attr('src', images[icounter]);
+                //     iCounterLandBtoU--;
+                //     $('#jet-animate_landing').attr('src', images[iCounterLandBtoU]);
                     
-                    //if(icounter<=404)
-                    if(iCounterLandBtoU>256)
-                        pjcEcoSysTimeOut = setTimeout(nextImage, 15);
+                //     //if(icounter<=404)
+                //     if(iCounterLandBtoU>256)
+                //         pjcEcoSysTimeOut = setTimeout(nextImage, 15);
 
-                }
-                setTimeout(nextImage, 15);
-                //$('#jet-animate_landing').attr('src', images[icounter]);
-                $('#jet-animate_landing').attr('src', images[iCounterLandBtoU]);
+                // }
+                // setTimeout(nextImage, 15);
+                // //$('#jet-animate_landing').attr('src', images[icounter]);
+                // $('#jet-animate_landing').attr('src', images[iCounterLandBtoU]);
+                $('#jet-animate_landing').attr('src', images[404]);
+                $('#jet-animate_landing').removeClass('hide');
+                $('#wrapper').css('z-index', 5);
             }
         }
         if(i >= 3) {
@@ -365,10 +418,10 @@ $(document).on('mousewheel DOMMouseScroll', function(event) {
             $('#jet-animate_landing').addClass('hide');
             $('#wrapper').css('z-index', -2);
         }
-        if(i < 3) {
-            $('#jet-animate_landing').removeClass('hide');
-            $('#wrapper').css('z-index', 5);
-        }
+        // if(i < 3) {
+        //     $('#jet-animate_landing').removeClass('hide');
+        //     $('#wrapper').css('z-index', 5);
+        // }
         
     }, 250);
 });  
