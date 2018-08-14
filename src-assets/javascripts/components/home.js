@@ -163,7 +163,6 @@ var pjcEcoSysTimeOut;
 
 if(window.screen.availWidth > 1200) {
     
-    console.log('inside availWidth ============>>');
     $(document).on('mousewheel DOMMouseScroll', function(event) {
         event.preventDefault();
 
