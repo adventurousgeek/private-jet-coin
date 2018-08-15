@@ -197,7 +197,6 @@ if(window.screen.availWidth > 1200) {
         clearInterval(scrollTimeout);
         var scrollTimeout = setTimeout(function() {
             
-            
             if(a[i].id == "mast-head") {
 
                 $('#jet-animate_prepose').addClass('pap-pre-pose');
@@ -234,7 +233,10 @@ if(window.screen.availWidth > 1200) {
                 
                 }
                 else {
-                
+                    
+                    if(window.scrollY == 0)
+                        return;
+
                     //if(iCounterPoseBtoU <= 105)
                         iCounterPoseBtoU = 255;
 
