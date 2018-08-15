@@ -3,6 +3,7 @@
   width: 100%;
   height: 50px;
   padding-top: 25px;
+  z-index: 8;
   nav {
     ul {
       li {
@@ -19,5 +20,9 @@
         padding-top: 0px;
       }
     }
+  }
+  .navbar-default{
+    background-color: transparent;
+    border-color: transparent;
   }
 }

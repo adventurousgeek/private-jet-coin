@@ -51,6 +51,11 @@
   url('assets/fonts/rajdhani-v7-latin-700.svg#Rajdhani') format('svg'); /* Legacy iOS */
 }
 
+@font-face {
+  font-family: 'HelveticaNeue-Extended';
+  src: url('assets/fonts/HelveticaNeue-Extended.otf');
+}
+
 #svg-sprite {
   display: none;
 }
@@ -100,8 +105,17 @@ h1 {
 .no-padding {
   padding: 0px;
 }
-/*
+.nav>li>a {
+  padding: 0 0;
+}
+  /*
 .jet-model-wrapper {
   display: none;
 }
 */
+
+/* Jet Model Placement */
+
+.pap-pre-pose {
+  top: -20px;
+}
