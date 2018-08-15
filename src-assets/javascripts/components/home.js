@@ -200,6 +200,10 @@ if(window.screen.availWidth > 1200) {
             
             if(a[i].id == "mast-head") {
 
+                $('#jet-animate_prepose').addClass('pap-pre-pose');
+                $('#jet-animate_pose').removeClass('pap-pose');
+                $('#jet-animate_landing').removeClass('pap-landing');
+                
                 if(wd < 0) {
                     //if(iCounterPrePose >= 104)
                         iCounterPrePose = 0;
@@ -262,6 +266,11 @@ if(window.screen.availWidth > 1200) {
             }
             if(a[i].id == "pjc-service")
             {   
+
+                $('#jet-animate_prepose').removeClass('pap-pre-pose');
+                $('#jet-animate_pose').addClass('pap-pose');
+                $('#jet-animate_landing').removeClass('pap-landing');
+
                 if(wd < 0) {
                     //if(iCounterPose >= 255)
                         iCounterPose = 105;
@@ -321,6 +330,10 @@ if(window.screen.availWidth > 1200) {
             }
             if(a[i].id == "pjc-ecosystem")
             {
+                $('#jet-animate_prepose').removeClass('pap-pre-pose');
+                $('#jet-animate_pose').removeClass('pap-pose');
+                $('#jet-animate_landing').addClass('pap-landing');
+
                 if(wd < 0) {
                     //if(iCounterLand >= 404)
                         iCounterLand = 256;

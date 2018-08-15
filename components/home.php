@@ -1,12 +1,12 @@
 <div id="load" data-images="104"></div>
 <div class="jet-model-wrapper" id="wrapper">
     <div id="rotate">
-        <img id="jet-animate_prepose" src="./assets/images/1_00104.png">
+        <img id="jet-animate_prepose" class="pap-pre-pose" src="./assets/images/1_00104.png">
         <img id="jet-animate_pose" class="hide" src="./assets/images/1_00104.png">
         <img id="jet-animate_landing" class="hide" src="./assets/images/1_00104.png">
     </div>
 </div>
-<section id="mast-head" class="pap-pre-pose mast-head universal-section">
+<section id="mast-head" class="mast-head universal-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -156,7 +156,7 @@
     </div>
 </section>
 
-<section id="pjc-service" class="pap-pose pjc-service universal-section">
+<section id="pjc-service" class="pjc-service universal-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
@@ -179,7 +179,7 @@
     </div>
 </section>
 
-<section id="pjc-ecosystem" class="pap-landing pjc-ecosystem universal-section">
+<section id="pjc-ecosystem" class="pjc-ecosystem universal-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
