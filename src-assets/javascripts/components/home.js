@@ -168,7 +168,7 @@ if(window.screen.availWidth > 1200) {
 
         if(delay) return;
         delay = true;
-        setTimeout(function(){delay = false},500)
+        setTimeout(function(){delay = false},1000)
 
         var wd = event.originalEvent.wheelDelta || -event.originalEvent.detail;
 

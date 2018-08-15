@@ -23,10 +23,11 @@
             <div class="row">
                 <div class="col-lg-3">
                     <p>inquiry@privatejetcoin.io<br />
-                    +1 (415) XXX XX XX</p>
-                    <p>XXX South XXth Street,<br />
-                    Phoenix, AZ 85034<br />
-                    <a href="#">View on map</a></p>
+                        +1 (415) XXX XX XX
+                     </p>
+                    <p>3422 Old Capital Trail,<br />
+                        Suite 700, Wilmington,<br />
+                        DE 19808</p>
                     <img src="assets/images/logo-footer.png">
                 </div>
                 <div class="col-lg-6 text-center">
@@ -42,7 +43,7 @@
                         <li><a href="#"><svg class="icon icon-bitcoin"><use xlink:href="#icon-bitcoin"></use></svg></a></li>
                         <li><a href="#"><svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg></a></li>
                     </ul>
-                    <p>© 2018 PrivateJetCoin. All Rights Reserved.</p>
+                    <p>© 2018 Private Jet Coin LLC - All Rights Reserved</p>
                 </div>
                 <div class="col-lg-3">
                     <ul class="list-unstyled">
