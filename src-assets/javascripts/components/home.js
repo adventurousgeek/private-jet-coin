@@ -230,7 +230,9 @@ if(window.screen.availWidth > 1200) {
                 
                 }
                 else {
-                
+                    if(window.scrollY == 0)
+                        return;
+                    
                     //if(iCounterPoseBtoU <= 105)
                         iCounterPoseBtoU = 255;
 

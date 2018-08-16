@@ -67,7 +67,8 @@
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous">
 </script>
-<script async src="assets/js/scripts.js"></script>
+<!-- <script async src="assets/js/scripts.js"></script> -->
+<script src="assets/js/scripts.js"></script>
 <script src="assets/js/spin.js"></script>
 <script type="text/javascript">
     var opts = {
@@ -94,7 +95,8 @@
     var target = document.getElementById('spinner');
     var spinner = new Spinner(opts).spin(target);
 </script>
-<script async src="src-assets/javascripts/components/home.js"></script>
+<!-- <script async src="src-assets/javascripts/components/home.js"></script> -->
+<script src="src-assets/javascripts/components/home.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script>
 <script src='src-assets/javascripts/components/counter.js'></script>
 </body>
