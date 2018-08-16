@@ -1,0 +1,28 @@
+.site-header {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  padding-top: 25px;
+  z-index: 8;
+  nav {
+    ul {
+      li {
+        padding-top: 87px;
+        padding-left: 14px;
+        padding-right: 14px;
+        .icon {
+          color: #4e5864;
+          height: 23px;
+          margin-top: 9px;
+        }
+      }
+      li.logo-header {
+        padding-top: 0px;
+      }
+    }
+  }
+  .navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+  }
+}

@@ -21,6 +21,10 @@
   text-align: center;
   .container {
     z-index: 6;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
   }
   .col-lg-12 {
     h1 {
@@ -30,6 +34,7 @@
       color: #4e5864;
       font-family: 'Rajdhani', sans-serif;
       font-weight: 500;
+      margin-top: 84px;
     }
     form {
       max-width: 796px;
@@ -80,7 +85,7 @@
         margin-top: 0px;
       }
       p {
-        font-family: 'Helvetica Neue', sans-serif;
+        font-family: 'HelveticaNeue-Extended', sans-serif;
       }
     }
   }
@@ -116,7 +121,7 @@
           }
         }
         p {
-          font-family: 'Helvetica Neue', sans-serif;
+          font-family: 'HelveticaNeue-Extended', sans-serif;
           margin-bottom: 45px;
         }
         h1 {
@@ -432,6 +437,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  .countdown {
+    margin-bottom: -10px;
+  }
+  .countdown .figure {
+    margin-bottom: 8px;
+  }
+  .countdown .count-title {
+    margin-bottom: 0px;
+  }
+  .countdown .count-title {
+    color: white;
+  }
+  .countdown .figure {
+    height: 71px;
+    margin-bottom: 8px;
+  }
   .road-map-header {
     background-color: #34465b;
     padding: 52px 0px;
@@ -455,6 +476,12 @@
     background: #3c4f67;
     .container {
       .row {
+        svg {
+          width: 84px;
+          height: 77px;
+          margin-bottom: 30px;
+          color: white;
+        }
         .quarter-one {
           display: inline-block;
           height: 250px;
@@ -716,12 +743,115 @@
     }
   }
 }
-.mast-head .col-lg-12 h3 {
-  margin-top: 214px;
-}
-.pap-pre-pose {
 
+.road-map .road-map-footer form .form-control {
+  border: 2px solid #759ac9;
 }
+
+/* Cloud Animation */
+
+
+#banner {
+  background: #d7dde4;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+#cloud-scroll {
+  background: url(assets/images/sky-clouds.png) repeat-x;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: absolute;
+  -webkit-animation: 900000s backgroundScroll infinite linear;
+  -moz-animation: 900000s backgroundScroll infinite linear;
+  -o-animation: 900000s backgroundScroll infinite linear;
+  -ms-animation: 900000s backgroundScroll infinite linear;
+  animation: 900000s backgroundScroll infinite linear;
+}
+
+@-webkit-keyframes backgroundScroll {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -99999999px 0;
+  }
+}
+
+@keyframes backgroundScroll {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -99999999px 0;
+  }
+}
+
+
+/* Button Hover Animation */
+
+
+.button:focus {
+  outline: none;
+}
+
+.button {
+  text-transform: uppercase;
+  float: left;
+  min-width: 150px;
+  max-width: 250px;
+  background: none;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  color: #116dd6;
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid;
+  cursor:pointer;
+}
+
+.button::after {
+  content: "";
+  background-color: transparent;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  opacity: 0;
+  color: #3f51b5;
+  z-index: -1;
+}
+
+.button:hover::after {
+  opacity: 1;
+  background-color: #116dd6;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.button,
+.button:after {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.button:hover {
+  border: 2px solid #116dd6;
+}
+
+/* End Button Hover Animation */
+
+
 /* Media Queries */
 @media (max-width: 1200px) {
   .jet-model-wrapper {
@@ -739,7 +869,7 @@
     display: none;
   }
   .mast-head {
-    padding-top: 210px;
+    padding-top: 350px;
   }
   .coin-background-pjc-section {
     display: none;
@@ -800,6 +930,65 @@
   .mast-head .col-lg-12 h3 {
     margin-top: 14px;
   }
+  .post-footer {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .pre-footer {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #005dcd;
+  }
+  .post-footer .col-lg-3 ul {
+    display: none;
+  }
+  .language-icon-added {
+    display: none;
+  }
+  .pre-footer .app-store-footer {
+    margin-top: 100px;
+  }
+  .token-summary .container ul {
+    zoom: .6;
+  }
+  .token-summary .container .graph-funds-distribution {
+    zoom: .6;
+  }
+  .token-summary .container .graph-token-distribution {
+    zoom: .6;
+  }
+  .token-summary .container {
+    height: auto;
+  }
+  .virtual-reality .container-fluid .row .content-block {
+    height: auto;
+  }
+  .mast-head .container {
+    position: relative;
+  }
+  #cloud-scroll {
+    display: none;
+  }
+  .road-map .road-map-header .container h3 {
+    text-align: center;
+  }
+  .road-map .quarter-predictions .container .row .quarter-two {
+    display: none;
+  }
+  .road-map .quarter-predictions .container .row .quarter-three {
+    display: none;
+  }
+  .road-map .quarter-predictions .container .row .quarter-four {
+    display: none;
+  }
+  .road-map .road-map-footer ul li {
+    display: none;
+  }
+  .road-map .road-map-footer ul li.mobile-display-line {
+    display: inline-block;
+  }
 }
 @media (min-width: 1200px) {
   .navbar-nav>li>a {
@@ -810,5 +999,6 @@
     display: none;
   }
 }
+
 
 

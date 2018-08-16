@@ -54,6 +54,7 @@
 @font-face {
   font-family: 'HelveticaNeue-Extended';
   src: url('assets/fonts/HelveticaNeue-Extended.otf');
+  font-style: normal;
 }
 
 #svg-sprite {
@@ -89,7 +90,7 @@
 }
 h1, h2, h3, h4, h5, h6 {
   color: #116dd6;
-  font-family: 'Helvetica Neue';
+  font-family: 'HelveticaNeue-Extended';
 }
 h1 {
   line-height: 60px;

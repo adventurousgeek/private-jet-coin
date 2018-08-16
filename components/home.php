@@ -1,162 +1,165 @@
 <div id="load" data-images="104"></div>
 <div class="jet-model-wrapper" id="wrapper">
     <div id="rotate">
-        <img id="jet-animate_prepose" class="pap-pre-pose" src="./assets/images/1_00104.png">
+        <img id="jet-animate_prepose" src="./assets/images/1_00104.png">
         <img id="jet-animate_pose" class="hide" src="./assets/images/1_00104.png">
         <img id="jet-animate_landing" class="hide" src="./assets/images/1_00104.png">
     </div>
 </div>
-<section id="mast-head" class="mast-head universal-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>The Blockchain Powered<br />Private Aviation Platform</h1>
+<section id="mast-head" class="pap-pre-pose mast-head universal-section">
+    <div id="banner">
+        <div id="cloud-scroll"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>The Blockchain Powered<br />Private Aviation Platform</h1>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <h3>ICO Take-Off In</h3>
-                <div class="countdown">
-                    <div class="bloc-time days" data-init-value="07">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>ICO Take-Off In</h3>
+                    <div class="countdown">
+                        <div class="bloc-time days" data-init-value="07">
 
 
-                        <div class="figure days days-1">
-                            <span class="top">2</span>
-                            <span class="top-back">
-                                    <span>2</span>
-                                </span>
-                            <span class="bottom">2</span>
-                            <span class="bottom-back">
-                                    <span>2</span>
-                                </span>
+                            <div class="figure days days-1">
+                                <span class="top">2</span>
+                                <span class="top-back">
+                                        <span>2</span>
+                                    </span>
+                                <span class="bottom">2</span>
+                                <span class="bottom-back">
+                                        <span>2</span>
+                                    </span>
+                            </div>
+
+                            <div class="figure days days-2">
+                                <span class="top">4</span>
+                                <span class="top-back">
+                                        <span>4</span>
+                                    </span>
+                                <span class="bottom">4</span>
+                                <span class="bottom-back">
+                                        <span>4</span>
+                                    </span>
+                            </div>
+
+                            <span class="count-title">Days</span>
+
                         </div>
 
-                        <div class="figure days days-2">
-                            <span class="top">4</span>
-                            <span class="top-back">
-                                    <span>4</span>
-                                </span>
-                            <span class="bottom">4</span>
-                            <span class="bottom-back">
-                                    <span>4</span>
-                                </span>
+                        <div class="bloc-time hours" data-init-value="24">
+
+                            <div class="figure hours hours-1">
+                                <span class="top">2</span>
+                                <span class="top-back">
+                                        <span>2</span>
+                                    </span>
+                                <span class="bottom">2</span>
+                                <span class="bottom-back">
+                                        <span>2</span>
+                                    </span>
+                            </div>
+
+                            <div class="figure hours hours-2">
+                                <span class="top">4</span>
+                                <span class="top-back">
+                                        <span>4</span>
+                                    </span>
+                                <span class="bottom">4</span>
+                                <span class="bottom-back">
+                                        <span>4</span>
+                                    </span>
+                            </div>
+
+                            <span class="count-title">Hours</span>
+
                         </div>
 
-                        <span class="count-title">Days</span>
+                        <div class="bloc-time min" data-init-value="0">
 
-                    </div>
 
-                    <div class="bloc-time hours" data-init-value="24">
+                            <div class="figure min min-1">
+                                <span class="top">0</span>
+                                <span class="top-back">
+                                        <span>0</span>
+                                    </span>
+                                <span class="bottom">0</span>
+                                <span class="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                            </div>
 
-                        <div class="figure hours hours-1">
-                            <span class="top">2</span>
-                            <span class="top-back">
-                                    <span>2</span>
-                                </span>
-                            <span class="bottom">2</span>
-                            <span class="bottom-back">
-                                    <span>2</span>
-                                </span>
+                            <div class="figure min min-2">
+                                <span class="top">0</span>
+                                <span class="top-back">
+                                        <span>0</span>
+                                    </span>
+                                <span class="bottom">0</span>
+                                <span class="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                            </div>
+
+                            <span class="count-title">Minutes</span>
+
+
                         </div>
 
-                        <div class="figure hours hours-2">
-                            <span class="top">4</span>
-                            <span class="top-back">
-                                    <span>4</span>
-                                </span>
-                            <span class="bottom">4</span>
-                            <span class="bottom-back">
-                                    <span>4</span>
-                                </span>
+                        <div class="bloc-time sec" data-init-value="0">
+
+                            <div class="figure sec sec-1">
+                                <span class="top">0</span>
+                                <span class="top-back">
+                                        <span>0</span>
+                                    </span>
+                                <span class="bottom">0</span>
+                                <span class="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                            </div>
+
+                            <div class="figure sec sec-2">
+                                <span class="top">0</span>
+                                <span class="top-back">
+                                        <span>0</span>
+                                    </span>
+                                <span class="bottom">0</span>
+                                <span class="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                            </div>
+
+                            <span class="count-title">Seconds</span>
+
                         </div>
-
-                        <span class="count-title">Hours</span>
-
-                    </div>
-
-                    <div class="bloc-time min" data-init-value="0">
-
-
-                        <div class="figure min min-1">
-                            <span class="top">0</span>
-                            <span class="top-back">
-                                    <span>0</span>
-                                </span>
-                            <span class="bottom">0</span>
-                            <span class="bottom-back">
-                                    <span>0</span>
-                                </span>
-                        </div>
-
-                        <div class="figure min min-2">
-                            <span class="top">0</span>
-                            <span class="top-back">
-                                    <span>0</span>
-                                </span>
-                            <span class="bottom">0</span>
-                            <span class="bottom-back">
-                                    <span>0</span>
-                                </span>
-                        </div>
-
-                        <span class="count-title">Minutes</span>
-
-
-                    </div>
-
-                    <div class="bloc-time sec" data-init-value="0">
-
-                        <div class="figure sec sec-1">
-                            <span class="top">0</span>
-                            <span class="top-back">
-                                    <span>0</span>
-                                </span>
-                            <span class="bottom">0</span>
-                            <span class="bottom-back">
-                                    <span>0</span>
-                                </span>
-                        </div>
-
-                        <div class="figure sec sec-2">
-                            <span class="top">0</span>
-                            <span class="top-back">
-                                    <span>0</span>
-                                </span>
-                            <span class="bottom">0</span>
-                            <span class="bottom-back">
-                                    <span>0</span>
-                                </span>
-                        </div>
-
-                        <span class="count-title">Seconds</span>
-
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <form>
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <input type="text" class="form-control" placeholder="Email">
+            <div class="row">
+                <div class="col-lg-12">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <input type="text" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="col-lg-3">
+                                <input type="text" class="form-control" placeholder="ETH Address">
+                            </div>
+                            <div class="col-lg-3">
+                                <input type="text" class="form-control" placeholder="Amount">
+                            </div>
+                            <div class="col-lg-3">
+                                <button type="submit" class="btn btn-primary button">Hop On</button>
+                            </div>
                         </div>
-                        <div class="col-lg-3">
-                            <input type="text" class="form-control" placeholder="ETH Address">
-                        </div>
-                        <div class="col-lg-3">
-                            <input type="text" class="form-control" placeholder="Amount">
-                        </div>
-                        <div class="col-lg-3">
-                            <button type="submit" class="btn btn-primary">Hop On</button>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+            </div>
         </div>
     </div>
 </section>
 
-<section id="pjc-service" class="pjc-service universal-section">
+<section id="pjc-service" class="pap-pose pjc-service universal-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
@@ -179,7 +182,7 @@
     </div>
 </section>
 
-<section id="pjc-ecosystem" class="pjc-ecosystem universal-section">
+<section id="pjc-ecosystem" class="pap-landing pjc-ecosystem universal-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -201,7 +204,7 @@
         <div class="row">
             <div id="usecase-section" class="col-lg-6">
                 <h1>Use Cases</h1>
-                <p>Management in general aviation (GA) requires sustainable and completely new concepts.</p>
+                <p>Book direct on a variety of platforms or purchase block hours on our super mid-size jets.</p>
                 <ul class="list-unstyled list-inline">
                     <li id="usecase-1" ><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Third<br />Party</span></button></li>
                     <li id="usecase-2"><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#empty-flights-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Empty<br />Flights</span></button></li>
@@ -210,7 +213,7 @@
             </div>
             <div id="airline-section" class="col-lg-6 inactive">
                 <h1>Airlines</h1>
-                <p>Airline ticket management urgently needs<br />technical innovation.</p>
+                <p>Operators and brokers operators alike may use the platform to book on behalf of customers.</p>
                 <ul class="list-unstyled list-inline right-airlines">
                     <li id="airlines-1"><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#booking-portals-svg"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Booking<br />Portals</span></button></li>
                     <li id="airlines-2"><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#travel-agencies-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Travel<br />Agencies</span></button></li>
@@ -341,7 +344,122 @@
                     <h3>ICO Take-Off In</h3>
                 </div>
                 <div class="col-lg-6">
+                    <div class="countdown">
+                        <div class="bloc-time days" data-init-value="07">
 
+
+                            <div class="figure days days-1">
+                                <span class="top">2</span>
+                                <span class="top-back">
+                                        <span>2</span>
+                                    </span>
+                                <span class="bottom">2</span>
+                                <span class="bottom-back">
+                                        <span>2</span>
+                                    </span>
+                            </div>
+
+                            <div class="figure days days-2">
+                                <span class="top">4</span>
+                                <span class="top-back">
+                                        <span>4</span>
+                                    </span>
+                                <span class="bottom">4</span>
+                                <span class="bottom-back">
+                                        <span>4</span>
+                                    </span>
+                            </div>
+
+                            <span class="count-title">Days</span>
+
+                        </div>
+
+                        <div class="bloc-time hours" data-init-value="24">
+
+                            <div class="figure hours hours-1">
+                                <span class="top">2</span>
+                                <span class="top-back">
+                                        <span>2</span>
+                                    </span>
+                                <span class="bottom">2</span>
+                                <span class="bottom-back">
+                                        <span>2</span>
+                                    </span>
+                            </div>
+
+                            <div class="figure hours hours-2">
+                                <span class="top">4</span>
+                                <span class="top-back">
+                                        <span>4</span>
+                                    </span>
+                                <span class="bottom">4</span>
+                                <span class="bottom-back">
+                                        <span>4</span>
+                                    </span>
+                            </div>
+
+                            <span class="count-title">Hours</span>
+
+                        </div>
+
+                        <div class="bloc-time min" data-init-value="0">
+
+
+                            <div class="figure min min-1">
+                                <span class="top">0</span>
+                                <span class="top-back">
+                                        <span>0</span>
+                                    </span>
+                                <span class="bottom">0</span>
+                                <span class="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                            </div>
+
+                            <div class="figure min min-2">
+                                <span class="top">0</span>
+                                <span class="top-back">
+                                        <span>0</span>
+                                    </span>
+                                <span class="bottom">0</span>
+                                <span class="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                            </div>
+
+                            <span class="count-title">Minutes</span>
+
+
+                        </div>
+
+                        <div class="bloc-time sec" data-init-value="0">
+
+                            <div class="figure sec sec-1">
+                                <span class="top">0</span>
+                                <span class="top-back">
+                                        <span>0</span>
+                                    </span>
+                                <span class="bottom">0</span>
+                                <span class="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                            </div>
+
+                            <div class="figure sec sec-2">
+                                <span class="top">0</span>
+                                <span class="top-back">
+                                        <span>0</span>
+                                    </span>
+                                <span class="bottom">0</span>
+                                <span class="bottom-back">
+                                        <span>0</span>
+                                    </span>
+                            </div>
+
+                            <span class="count-title">Seconds</span>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -354,8 +472,8 @@
                         <div class="main-div">
                             <h1>Q3/18</h1>
                             <p>JUL</p>
-                            <img src="assets/images/road-map-database.png">
-                            <p><span>Building Global Flight Database</span></p>
+                            <svg class="icon-fleet-acquisition"><use xlink:href="#icon-fleet-acquisition"></use></svg>
+                            <p><span>Fleet Acquisition</span></p>
                         </div>
                         <div class="sub-div">
                             <img src="assets/images/plane-icon.png">
@@ -369,8 +487,8 @@
                         <div class="main-div">
                             <h1>Q3/18</h1>
                             <p>AUG</p>
-                            <img src="assets/images/road-map-aviation.png">
-                            <p><span>Development of Aviation Portal</span></p>
+                            <svg class="icon-charter-operations"><use xlink:href="#icon-charter-operations"></use></svg>
+                            <p><span>Charter Operations</span></p>
                         </div>
                         <div class="sub-div">
                             <img src="assets/images/plane-icon.png">
@@ -384,8 +502,8 @@
                         <div class="main-div">
                             <h1>Q3/18</h1>
                             <p>SEP</p>
-                            <img src="assets/images/road-map-public-launch.png">
-                            <p><span>PJC API Public Launch</span></p>
+                            <svg class="icon-booking-platform-testnet"><use xlink:href="#icon-booking-platform-testnet"></use></svg>
+                            <p><span>Booking Platform Testnet</span></p>
                         </div>
                         <div class="sub-div">
                             <img src="assets/images/plane-icon.png">
@@ -399,8 +517,8 @@
                         <div class="main-div">
                             <h1>Q4/18</h1>
                             <p>OCT</p>
-                            <img src="assets/images/road-map-sales-force.png">
-                            <p><span>PJC Salesforce integration</span></p>
+                            <svg class="icon-booking-platfrom-launch"><use xlink:href="#icon-booking-platfrom-launch"></use></svg>
+                            <p><span>Booking Platform Launch</span></p>
                         </div>
                     </div>
                 </div>
@@ -413,7 +531,7 @@
                 <div class="col-lg-12">
                     <ul class="list-inline list-unstyled">
                         <span class="left-span"><svg class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg></span>
-                        <li class="list-inline-item">Q1/18</li>
+                        <li class="list-inline-item mobile-display-line">Q1/18</li>
                         <li class="list-inline-item">Q2/18</li>
                         <li class="list-inline-item">Q3/18</li>
                         <li class="list-inline-item">Q4/18</li>
@@ -435,7 +553,7 @@
                                 <input type="text" class="form-control" placeholder="Amount">
                             </div>
                             <div class="col-lg-3">
-                                <button type="submit" class="btn btn-primary">Hop On</button>
+                                <button type="submit" class="btn btn-primary button">Hop On</button>
                             </div>
                         </div>
                     </form>
