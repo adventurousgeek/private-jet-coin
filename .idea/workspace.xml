@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2c3775f-f867-4aad-adc5-750bccdb6aa5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Landing.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pose.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pre-Pose.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/1_00104.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/4_00000 - Copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/4_00000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/carousel-icon-one.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/coin-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/header-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/private-jet-coin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/token-distribution.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/components/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src-assets/scss/components/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src-assets/scss/components/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -18,8 +30,8 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="39" selection-end-column="39" />
+            <state relative-caret-position="34">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -27,8 +39,8 @@
       <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="1000" column="16" selection-start-line="1000" selection-start-column="16" selection-end-line="1000" selection-end-column="16" />
+            <state relative-caret-position="253">
+              <caret line="768" column="1" selection-start-line="768" selection-start-column="1" selection-end-line="768" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -36,7 +48,7 @@
       <file leaf-file-name="_navbar.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-121">
+            <state relative-caret-position="2465">
               <caret line="145" column="6" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="6" />
             </state>
           </provider>
@@ -45,7 +57,7 @@
       <file leaf-file-name="_navs.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navs.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="2975">
               <caret line="175" column="6" selection-start-line="175" selection-start-column="2" selection-end-line="175" selection-end-column="6" />
             </state>
           </provider>
@@ -58,6 +70,9 @@
       <find>coin</find>
       <find>@MED</find>
       <find>MED</find>
+      <find>img</find>
+      <find>coin-b</find>
+      <find>eco</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,12 +201,14 @@
       <option name="presentableId" value="Default" />
       <updated>1534456231612</updated>
       <workItem from="1534456234527" duration="287000" />
-      <workItem from="1534524157209" duration="645000" />
+      <workItem from="1534524157209" duration="1244000" />
+      <workItem from="1534528529321" duration="1102000" />
+      <workItem from="1534530338754" duration="451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="932000" />
+    <option name="totallyTimeSpent" value="3084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -203,9 +220,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32943678" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32943678" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -229,6 +246,62 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/components/home.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="7" selection-start-column="40" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="6" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="175" column="6" selection-start-line="175" selection-start-column="2" selection-end-line="175" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="6" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="175" column="6" selection-start-line="175" selection-start-column="2" selection-end-line="175" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17000">
+          <caret line="1000" column="16" selection-start-line="1000" selection-start-column="16" selection-end-line="1000" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/home.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2839">
           <caret line="167" column="15" selection-start-line="167" selection-start-column="15" selection-end-line="167" selection-end-column="15" />
         </state>
@@ -241,31 +314,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navs.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="2975">
           <caret line="175" column="6" selection-start-line="175" selection-start-column="2" selection-end-line="175" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navbar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
+        <state relative-caret-position="2465">
           <caret line="145" column="6" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="1000" column="16" selection-start-line="1000" selection-start-column="16" selection-end-line="1000" selection-end-column="16" />
+        <state relative-caret-position="253">
+          <caret line="768" column="1" selection-start-line="768" selection-start-column="1" selection-end-line="768" selection-end-column="1" />
         </state>
       </provider>
     </entry>

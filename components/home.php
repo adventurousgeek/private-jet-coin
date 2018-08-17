@@ -1,10 +1,10 @@
 <div id="load" data-images="104"></div>
 <section id="mast-head" class="pap-pre-pose mast-head universal-section">
-    <div id="banner">
-        <div id="cloud-scroll"></div>
+    <div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+                    <img class="pose-one" src="assets/images/pose1.png">
                     <h1>The Blockchain Powered<br />Private Aviation Platform</h1>
                 </div>
             </div>
@@ -159,7 +159,7 @@
                 <h3>Tokenized Flight Hours</h3>
             </div>
             <div class="col-lg-6">
-                <img src="assets/images/coin-bg.png">
+                <img src="assets/images/coin-jet-bg.png">
             </div>
             <div class="col-lg-3">
                 <h3>Protocol Agnostic Dapp</h3>
@@ -177,6 +177,7 @@
 
 <section id="pjc-ecosystem" class="pap-landing pjc-ecosystem universal-section">
     <div class="container">
+        <img class="pose-three" src="assets/images/pose3.png">
         <div class="row">
             <div class="col-lg-6">
                 <h1>PJC Ecosystem</h1>
