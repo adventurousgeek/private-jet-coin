@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e2c3775f-f867-4aad-adc5-750bccdb6aa5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/funds-distribution.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/language-icon - Copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/pjc-card-background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/road-map-aviation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/road-map-database.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/road-map-public-launch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/road-map-sales-force.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sky-clouds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src-assets/scss/components/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src-assets/scss/components/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +17,7 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="34">
               <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
             </state>
           </provider>
@@ -36,8 +26,8 @@
       <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="980" column="17" selection-start-line="980" selection-start-column="17" selection-end-line="980" selection-end-column="17" />
+            <state relative-caret-position="338">
+              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -117,7 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +160,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,12 +194,13 @@
       <workItem from="1534524157209" duration="1244000" />
       <workItem from="1534528529321" duration="1102000" />
       <workItem from="1534530338754" duration="1860000" />
-      <workItem from="1534532211215" duration="1509000" />
+      <workItem from="1534532211215" duration="2109000" />
+      <workItem from="1534535287944" duration="616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6002000" />
+    <option name="totallyTimeSpent" value="7218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -245,6 +236,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/components/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="6" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="175" column="6" selection-start-line="175" selection-start-column="2" selection-end-line="175" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16660">
+          <caret line="980" column="17" selection-start-line="980" selection-start-column="17" selection-end-line="980" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -359,15 +378,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="34">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="980" column="17" selection-start-line="980" selection-start-column="17" selection-end-line="980" selection-end-column="17" />
+        <state relative-caret-position="338">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
