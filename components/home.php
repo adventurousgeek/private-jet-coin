@@ -1,11 +1,4 @@
 <div id="load" data-images="104"></div>
-<div class="jet-model-wrapper" id="wrapper">
-    <div id="rotate">
-        <img id="jet-animate_prepose" src="./assets/images/1_00104.png">
-        <img id="jet-animate_pose" class="hide" src="./assets/images/1_00104.png">
-        <img id="jet-animate_landing" class="hide" src="./assets/images/1_00104.png">
-    </div>
-</div>
 <section id="mast-head" class="pap-pre-pose mast-head universal-section">
     <div id="banner">
         <div id="cloud-scroll"></div>
@@ -166,7 +159,7 @@
                 <h3>Tokenized Flight Hours</h3>
             </div>
             <div class="col-lg-6">
-                <svg class="coin-background-pjc-section"><use xlink:href="#coin-background-pjc-section"></use></svg>
+                <img src="assets/images/coin-bg.png">
             </div>
             <div class="col-lg-3">
                 <h3>Protocol Agnostic Dapp</h3>
