@@ -1,11 +1,10 @@
 <div id="load" data-images="104"></div>
 <section id="mast-head" class="pap-pre-pose mast-head universal-section">
-    <div>
-        <div class="container">
+    <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="pose-one" src="assets/images/pose1.png">
                     <h1>The Blockchain Powered<br />Private Aviation Platform</h1>
+                    <img class="pose-one" src="assets/images/pose1.png">
                 </div>
             </div>
             <div class="row">

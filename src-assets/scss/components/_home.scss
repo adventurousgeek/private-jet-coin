@@ -83,7 +83,7 @@
       }
       .col-lg-6 {
         img {
-          max-width: 100%;
+          max-width: 605px;
         }
       }
       h1 {
@@ -845,7 +845,7 @@
     display: none;
   }
   .mast-head {
-    padding-top: 350px;
+    padding-top: 200px;
   }
   .coin-background-pjc-section {
     display: none;
@@ -869,16 +869,16 @@
     padding: 0;
   }
   .pjc-service .container .row h1 {
-    text-align: left;
+    text-align: center;
   }
   .pjc-service .container .row h5 {
-    text-align: left;
+    text-align: center;
   }
   .pjc-service .container .row p {
-    text-align: left;
+    text-align: center;
   }
   .pjc-card .container .row .col-lg-12 p {
-    text-align: left;
+    text-align: center;
   }
   .pjc-card .container .row .col-lg-12 p {
     padding: 0;
@@ -926,15 +926,6 @@
   .pre-footer .app-store-footer {
     margin-top: 100px;
   }
-  .token-summary .container ul {
-    zoom: .6;
-  }
-  .token-summary .container .graph-funds-distribution {
-    zoom: .6;
-  }
-  .token-summary .container .graph-token-distribution {
-    zoom: .6;
-  }
   .token-summary .container {
     height: auto;
   }
@@ -970,6 +961,38 @@
   }
   .mast-head .col-lg-12 form .btn-primary {
     float: none;
+  }
+  .mast-head .container {
+    bottom: 10px;
+  }
+  .mast-head .col-lg-12 .pose-one {
+    position: relative;
+    display: block;
+    top: 0;
+    margin: auto;
+  }
+  .pose-three {
+    display: none;
+  }
+  .pjc-service {
+    text-align: center;
+  }
+  .virtual-reality .container-fluid .row {
+    height: auto;
+  }
+}
+@media (max-width: 600px) {
+  .token-summary .container ul {
+    zoom: .6;
+  }
+  .token-summary .container .graph-funds-distribution {
+    zoom: .6;
+  }
+  .token-summary .container .graph-token-distribution {
+    zoom: .6;
+  }
+  .pjc-service .container .row .col-lg-6 img {
+    max-width: 100%;
   }
 }
 @media (min-width: 1200px) {
