@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h3>ICO Take-Off In</h3>
-                    <div class="countdown">
+                    <div class="countdown" id="countdown1">
                         <div class="bloc-time days" data-init-value="07">
 
 
@@ -337,7 +337,7 @@
                     <h3>ICO Take-Off In</h3>
                 </div>
                 <div class="col-lg-6">
-                    <div class="countdown">
+                    <div class="countdown" id="countdown2">
                         <div class="bloc-time days" data-init-value="07">
 
 
