@@ -15,16 +15,36 @@
 
 .mast-head {
   background-color: #d7dde4;
+  padding-top: 271px;
+  padding-bottom: 141px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  position: relative;
+  #mast-head-video {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: 6;
+  }
   .container {
     z-index: 6;
-    position: absolute;
+    position: relative;
     bottom: 100px;
     left: 0;
     right: 0;
+    top: 0;
+    .button {
+      float: none;
+      margin: auto;
+      font-size: 21px;
+      padding-left: 56px;
+      padding-right: 56px;
+      letter-spacing: 1px;
+    }
   }
   .col-lg-12 {
     .pose-one {
@@ -33,16 +53,18 @@
       display: flex;
       width: 520px;
       z-index: -1;
-      top: 50px;
     }
     h1 {
       margin-bottom: 45px;
+      color: #fff;
     }
     h3 {
-      color: #4e5864;
+      color: #fff;
       font-family: 'Rajdhani', sans-serif;
       font-weight: 500;
       margin-top: 0;
+      margin-bottom: 24px;
+      text-transform: uppercase;
     }
     form {
       max-width: 796px;
@@ -66,9 +88,6 @@
 }
 .pjc-service {
   background-color: #d7dde4;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   .container {
     .coin-background-pjc-section {
       width: 634px;
@@ -105,19 +124,43 @@
 }
 .pjc-ecosystem {
   background-image: url(assets/images/background-pjc-ecosystem.png);
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background-size: 100%;
+  padding-top: 148px;
+  padding-bottom: 287px;
   position: relative;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-color: #d7dde4;
+  overflow: hidden;
   .pose-three {
     position: absolute;
     right: 0;
     bottom: 0;
-    max-width: 1440px;
+    width: 1440px;
+  }
+  .wing-chart-third-section-svg {
+    position: absolute;
+    bottom: 299px;
+    right: 269PX;
+    width: 276PX;
+    height: 203px;
+  }
+  .labels-wing-chart-third-section-svg {
+    position: absolute;
+    bottom: 299px;
+    right: 269PX;
+    width: 276PX;
+    height: 203px;
   }
   .container {
     .row {
+      .coin-logo {
+        margin-bottom: 240px;
+        text-align: center;
+        img {
+          max-width: 389px;
+        }
+      }
       .col-lg-6 {
         .light-box-video {
           width: 332px;
@@ -152,11 +195,10 @@
   }
 }
 .use-cases {
-  background-color: #0053ba;
+  background-color: #2e4063;
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-top: 113px;
+  padding-bottom: 162px;
   .container {
     .row {
       .col-lg-6 {
@@ -178,6 +220,7 @@
         }
       }
       .col-lg-12 {
+        text-align: center;
         ul {
             margin-bottom: 60px;
         }
@@ -185,6 +228,11 @@
           padding: 0px 260px;
           margin-bottom: 0px;
           line-height: 27px;
+        }
+        .punch-line {
+          p {
+            padding: 0;
+          }
         }
         h2 {
           margin-top: 0px;
@@ -197,6 +245,15 @@
             padding-top: 13px;
             margin-right: 70px;
           }
+        }
+      }
+      .punch-line {
+        p {
+          padding: 0;
+          margin-bottom: 70px;
+        }
+        h1 {
+          margin-bottom: 28px;
         }
       }
       .col-lg-6 {
@@ -276,16 +333,16 @@
   }
 }
 .pjc-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: #005dcd;
+  background: #41506d;
   position: relative;
+  padding-top: 118px;
+  padding-bottom: 122px;
+  overflow: hidden;
   .world-map-svg {
     width: 1360px;
     height: 770px;
     position: absolute;
-    top: 160px;
+    bottom: -130px;
     left: 0;
     right: 0;
     margin: auto;
@@ -311,10 +368,10 @@
   }
 }
 .virtual-reality {
-  background-color: #0053ba;
+  background-color: #2e4063;
   .container-fluid {
     .row {
-      height: 50vh;
+      height: 480px;
       overflow: hidden;
       .vr-last {
         margin-top: -5px;
@@ -350,13 +407,11 @@
   }
 }
 .token-summary {
-  background-color: #34465b;
+  background-color: #41506d;
+  padding-top: 135px;
+  padding-bottom: 85px;
   .container {
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
-    height: 100vh;
-    display: flex;
     .col-lg-6 {
       height: 336px;
     }
@@ -367,6 +422,25 @@
     p {
       line-height: 27px;
       margin-bottom: 100px;
+    }
+    .col-lg-4 {
+      p {
+        font-size: 26px;
+        color: #82ace2;
+        width: 100%;
+        margin-bottom: 0;
+        padding-top: 80px;
+        &:after {
+          content: "";
+          border-bottom: solid 1px #82ace2;
+          height: 2px;
+          width: 541px;
+          z-index: 4;
+          position: absolute;
+          left: -41px;
+          top: 125px;
+        }
+      }
     }
     h3 {
       font-family: 'Rajdhani', sans-serif;
@@ -445,20 +519,25 @@
       z-index: 2;
     }
     .graph-token-distribution {
-      width: 265px;
-      height: 267px;
-      position: absolute;
+      width: 100%;
+      height: 371px;
+      position: relative;
       left: 17px;
     }
   }
 }
 .road-map {
-  background-color: #435872;
+  background-color: #2e4063;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 37px;
+  padding-bottom: 40px;
   .countdown {
     margin-bottom: -10px;
+  }
+  .col-lg-12 {
+    text-align: center;
   }
   .countdown .figure {
     margin-bottom: 8px;
@@ -474,7 +553,7 @@
     margin-bottom: 8px;
   }
   .road-map-header {
-    background-color: #34465b;
+    background-color: #41506d;
     padding: 52px 0px;
     .container {
       h1 {
@@ -491,11 +570,11 @@
       }
     }
   }
-  .quarter-predictions {
+  .quarter-predictions, #demos {
     padding: 75px 0px;
-    background: #3c4f67;
-    .container {
-      .row {
+    background: #4b5c7b;
+    .container, .row {
+      .row, .large-12 {
         svg {
           width: 84px;
           height: 77px;
@@ -572,9 +651,9 @@
   .road-map-footer {
     padding-top: 65px;
     padding-bottom: 53px;
-    background-color: #34465b;
+    background-color: #41506d;
     ul {
-      background-color: #0d54a9;
+      background-color: #5b6d8d;
       padding-top: 14px;
       padding-bottom: 14px;
       margin-top: -92px;
@@ -583,10 +662,10 @@
       margin-bottom: 43px;
       span.left-span {
         float: left;
-        background-color: #0e60c2;
-        padding: 10px 32px;
+        background-color: #2e4063;
+        padding: 11px 32px;
         line-height: 31px;
-        margin-top: -13px;
+        margin-top: -14px;
         cursor: pointer;
         .icon {
           color: white;
@@ -594,10 +673,10 @@
       }
       span.right-span {
         float: right;
-        background-color: #0e60c2;
-        padding: 10px 32px;
+        background-color: #2e4063;
+        padding: 11px 32px;
         line-height: 31px;
-        margin-top: -13px;
+        margin-top: -14px;
         cursor: pointer;
       }
       .icon {
@@ -616,23 +695,13 @@
         font-size: 17.5px;
       }
     }
-    form {
-      max-width: 796px;
+    .button {
+      float: none;
       margin: auto;
-      .form-control {
-        font-family: 'Rajdhani';
-        font-weight: 500;
-        font-style: italic;
-        height: 46px;
-        font-size: 21px;
-        color: #4e5864;
-        background-color: transparent;
-        border: 2px solid #929aa4;
-        border-radius: 0px;
-      }
-      .btn-primary {
-        width: 100%;
-      }
+      font-size: 21px;
+      padding-left: 56px;
+      padding-right: 56px;
+      letter-spacing: 1px;
     }
   }
 }
@@ -658,7 +727,7 @@
     display: block;
     margin-bottom: 15px;
     font: normal 0.94em "Rajdhani";
-    color: #1a1a1a;
+    color: #fff;
     text-transform: uppercase;
   }
 
@@ -686,7 +755,7 @@
       font-size: 66px;
       line-height: 72px;
       font-weight: 400;
-      color: #116dd6;
+      color: #324155;
     }
 
     .top, .bottom-back {
@@ -784,7 +853,7 @@
   vertical-align: middle;
   position: relative;
   z-index: 1;
-  color: #116dd6;
+  color: #fff;
   font-weight: bold;
   font-size: 16px;
   border: 2px solid;
@@ -800,13 +869,13 @@
   right: -20px;
   bottom: -20px;
   opacity: 0;
-  color: #3f51b5;
+  color: #116dd6;
   z-index: -1;
 }
 
 .button:hover::after {
   opacity: 1;
-  background-color: #116dd6;
+  background-color: #fff;
   top: 0;
   left: 0;
   right: 0;
@@ -822,7 +891,8 @@
 }
 
 .button:hover {
-  border: 2px solid #116dd6;
+  border: 2px solid #fff;
+  color: #116dd6;
 }
 
 /* End Button Hover Animation */
@@ -889,6 +959,9 @@
   }
   .mobile-logo {
     position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
   }
   .token-summary .container ul {
     max-width: 100%;
@@ -898,10 +971,10 @@
     zoom: .7;
   }
   .use-cases .container .row .col-lg-12 h2 .icon-arrow-right2 {
-    margin-left: 20px;
+    margin-left: 5px;
   }
   .use-cases .container .row .col-lg-12 h2 .icon-arrow-left2 {
-    margin-right: 20px;
+    margin-right: 5px;
   }
   .mast-head .col-lg-12 h3 {
     margin-top: 14px;
@@ -915,7 +988,7 @@
     height: auto;
     padding-top: 100px;
     padding-bottom: 100px;
-    background: #005dcd;
+    background: #41506d;
   }
   .post-footer .col-lg-3 ul {
     display: none;
@@ -941,6 +1014,7 @@
   .road-map .road-map-header .container h3 {
     text-align: center;
   }
+
   .road-map .quarter-predictions .container .row .quarter-two {
     display: none;
   }
@@ -972,7 +1046,11 @@
     margin: auto;
   }
   .pose-three {
-    display: none;
+    display: block;
+    position: absolute;
+    right: -190px !important;
+    bottom: 0;
+    width: 1440px;
   }
   .pjc-service {
     text-align: center;
@@ -980,8 +1058,73 @@
   .virtual-reality .container-fluid .row {
     height: auto;
   }
+  .virtual-reality .container-fluid .row .right-block, .virtual-reality .container-fluid .row .left-block {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .virtual-reality .container-fluid .row .left-block {
+    h1 {
+      margin-top: 0;
+    }
+  }
+  .road-map .quarter-predictions .container .row .quarter-one {
+    display: block;
+    height: 250px;
+    width: 332px;
+    margin: auto;
+  }
+  .road-map .road-map-header .container h1 {
+    text-align: center;
+  }
+  .road-map .road-map-footer form .form-control {
+    margin-bottom: 15px;
+  }
+  .post-footer .col-lg-6 .input-group {
+    margin: 0;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .post-footer .col-lg-3 ul {
+    text-align: left;
+  }
+  .token-summary .container h3 {
+    text-align: right;
+  }
+  .token-summary .container ul.float-right {
+    float: left;
+    left: 0;
+  }
+  .token-summary .container .graph-token-distribution {
+    left: auto;
+    right: 17px;
+  }
+  .token-summary .container ul.float-right li {
+    text-align: left;
+    float: none;
+  }
+  .token-summary .container .col-lg-4 p:after {
+    width: 0;
+  }
+  .token-summary .container .col-lg-4 p {
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+  .pjc-ecosystem {
+    padding-bottom: 337px;
+  }
+  .pre-footer .col-lg-3 {
+    text-align: center;
+  }
+  .post-footer .col-lg-3 {
+    text-align: center;
+  }
 }
+
 @media (max-width: 600px) {
+  .pjc-ecosystem {
+    padding-bottom: 857px;
+  }
   .token-summary .container ul {
     zoom: .6;
   }
@@ -994,6 +1137,14 @@
   .pjc-service .container .row .col-lg-6 img {
     max-width: 100%;
   }
+  .mast-head .col-lg-12 .pose-one {
+    max-width: 100%;
+  }
+  .mast-head .col-lg-12 h1, .pjc-service .container .row h1, .pjc-card .container .row .col-lg-12 h1, .virtual-reality h1 {
+    line-height: 39px;
+    font-size: 31px;
+  }
+
 }
 @media (min-width: 1200px) {
   .navbar-nav>li>a {
@@ -1004,6 +1155,148 @@
     display: none;
   }
 }
+canvas {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: none;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+/* Coin */
+
+$coin-diameter: 300px;
+$coin-thickness: 20px;
+$coin-color: #b6b5b0;
+// dime
+// $coin-front: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Dime_Obverse_13.png/440px-Dime_Obverse_13.png";
+// $coin-back: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Dime_Reverse_13.png/440px-Dime_Reverse_13.png";
+// penny
+$coin-front: "assets/images/coin-logo.png";
+$coin-back: "assets/images/coin-logo.png";
+$edge-faces: 80;
+$edge-face-length: 3.14*$coin-diameter/$edge-faces;
+$turn-time: 8s;
+
+.coin {
+  position: relative;
+  width: $coin-diameter;
+  height: $coin-diameter;
+  margin: 50px auto;
+  transform-style: preserve-3d;
+  animation: rotate3d $turn-time linear infinite;
+  transition: all .3s;
+}
+
+.coin__front,
+.coin__back {
+  position: absolute;
+  width: $coin-diameter;
+  height: $coin-diameter;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: $coin-color;
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: -$coin-diameter/2;
+    bottom: 100%;
+    display: block;
+    height: $coin-diameter/1.5;
+    width: $coin-diameter*2;
+    background: #fff;
+    opacity: 0.3;
+    animation: shine linear $turn-time/2 infinite;
+  }
+}
+
+.coin__front {
+  background-image: url($coin-front);
+  background-size: cover;
+  transform: translateZ($coin-thickness/2);
+}
+.coin__back {
+  background-image: url($coin-back);
+  background-size: cover;
+  transform: translateZ(-$coin-thickness/2) rotateY(180deg);
+}
+
+.coin__edge {
+  @for $i from 1 through $edge-faces {
+    div:nth-child(#{$i}) {
+      position: absolute;
+      height: $edge-face-length;
+      width: $coin-thickness;
+      background: darken( $coin-color, ( ($i - $edge-faces/2) * ($i - $edge-faces/2)) / ($edge-faces*$edge-faces/4) * 100 * 0.7 );
+      transform:
+              translateY(#{$coin-diameter/2-$edge-face-length/2})
+              translateX(#{$coin-diameter/2-$coin-thickness/2})
+              rotateZ(360deg/$edge-faces*$i+90)
+              translateX(#{$coin-diameter/2})
+              rotateY(90deg);
+    }
+  }
+}
+
+.coin__shadow {
+  position: absolute;
+  width: $coin-diameter;
+  height: $coin-thickness;
+  border-radius: 50%;
+  background: #000;
+  box-shadow: 0 0 $coin-thickness*5 $coin-thickness*5 #000;
+  opacity: 0.125;
+  transform: rotateX(90deg) translateZ(-$coin-diameter*1.1) scale(.5);
+}
+
+@keyframes rotate3d {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
+
+@keyframes shine {
+  0%, 15% {
+    transform: translateY($coin-diameter*2) rotate(-40deg);
+  }
+  50% {
+    transform: translateY(-$coin-diameter) rotate(-40deg);
+  }
+}
+.owl-item {
+  width: 375px !important;
+  &:nth-last-child(5) {
+    width: 160px !important;
+  }
+}
+
 
 
 

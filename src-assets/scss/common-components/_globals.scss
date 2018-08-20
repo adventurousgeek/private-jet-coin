@@ -87,9 +87,12 @@
   padding: 9px 18px;
   font-family: 'Rajdhani', sans-serif;
   font-weight: 600;
+  &:hover {
+    background-color: #404f6e;
+  }
 }
 h1, h2, h3, h4, h5, h6 {
-  color: #116dd6;
+  color: #59677f;
   font-family: 'HelveticaNeue-Extended';
 }
 h1 {

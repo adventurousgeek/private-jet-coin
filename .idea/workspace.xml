@@ -3,7 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="e2c3775f-f867-4aad-adc5-750bccdb6aa5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/coin-jet-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/coin-jet-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pjc-card.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/pjc-card.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pjc-ecosystem-video.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/pjc-ecosystem-video.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pose3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/pose3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pre-footer-background.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/pre-footer-background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-components/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common-components/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-components/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common-components/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-components/svg-icons.php" beforeDir="false" afterPath="$PROJECT_DIR$/common-components/svg-icons.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-assets/scss/common-components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src-assets/scss/common-components/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-assets/scss/common-components/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src-assets/scss/common-components/_globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-assets/scss/common-components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src-assets/scss/common-components/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src-assets/scss/components/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src-assets/scss/components/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +31,17 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="4522">
+              <caret line="266" column="32" selection-start-line="266" selection-start-column="32" selection-end-line="266" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-components/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1428">
+              <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -26,17 +49,62 @@
       <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state relative-caret-position="255">
+              <caret line="976" column="19" selection-start-line="976" selection-start-column="19" selection-end-line="976" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navbar.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navbar.scss">
+      <file leaf-file-name="_globals.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src-assets/scss/common-components/_globals.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2465">
-              <caret line="145" column="6" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="6" />
+            <state relative-caret-position="1020">
+              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-components/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="svg-icons.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-components/svg-icons.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7446">
+              <caret line="259" column="24" selection-start-line="259" selection-start-column="24" selection-end-line="259" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src-assets/scss/common-components/_footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src-assets/scss/common-components/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -54,15 +122,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>coin</find>
-      <find>@MED</find>
-      <find>MED</find>
-      <find>img</find>
-      <find>coin-b</find>
-      <find>eco</find>
-      <find>banner</find>
-      <find>max-width: 100%</find>
-      <find>.pjc-service .container .row h1</find>
+      <find>.count-title</find>
+      <find>left-span</find>
+      <find>.pre-footer</find>
+      <find>.pre=fo</find>
+      <find>form</find>
+      <find>.btn-primar</find>
+      <find>&amp;:hover</find>
+      <find>ooter</find>
+      <find>JetCard</find>
+      <find>assets</find>
+      <find>.button</find>
+      <find>private aviation</find>
+      <find>.pose-t</find>
+      <find>pose-three</find>
+      <find>Embra</find>
+      <find>.pose-thre</find>
+      <find>.pjc-eco</find>
+      <find>PJC FOR</find>
+      <find>token</find>
+      <find>.navbar-toggle</find>
+      <find>new</find>
+      <find>.token-s</find>
+      <find>#mast-</find>
+      <find>quarter</find>
+      <find>road-m</find>
+      <find>quarter-one</find>
+      <find>quart</find>
+      <find>main-div</find>
+      <find>quarter-two</find>
+      <find>hondajet</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -71,6 +160,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/src-assets/scss/common-components/_header.scss" />
+        <option value="$PROJECT_DIR$/src-assets/scss/common-components/_footer.scss" />
+        <option value="$PROJECT_DIR$/src-assets/scss/common-components/_globals.scss" />
+        <option value="$PROJECT_DIR$/common-components/svg-icons.php" />
+        <option value="$PROJECT_DIR$/common-components/header.php" />
+        <option value="$PROJECT_DIR$/common-components/footer.php" />
         <option value="$PROJECT_DIR$/components/home.php" />
         <option value="$PROJECT_DIR$/src-assets/scss/components/_home.scss" />
       </list>
@@ -107,6 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,14 +230,20 @@
               <item name="private-jet-coin" type="b2602c69:ProjectViewProjectNode" />
               <item name="private-jet-coin" type="462c0819:PsiDirectoryNode" />
               <item name="src-assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="private-jet-coin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="private-jet-coin" type="462c0819:PsiDirectoryNode" />
+              <item name="src-assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="private-jet-coin" type="b2602c69:ProjectViewProjectNode" />
               <item name="private-jet-coin" type="462c0819:PsiDirectoryNode" />
               <item name="src-assets" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="private-jet-coin" type="b2602c69:ProjectViewProjectNode" />
@@ -160,7 +263,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,30 +297,51 @@
       <workItem from="1534528529321" duration="1102000" />
       <workItem from="1534530338754" duration="1860000" />
       <workItem from="1534532211215" duration="2109000" />
-      <workItem from="1534535287944" duration="616000" />
+      <workItem from="1534535287944" duration="1216000" />
+      <workItem from="1534537236540" duration="599000" />
+      <workItem from="1534552010047" duration="1729000" />
+      <workItem from="1534554100155" duration="804000" />
+      <workItem from="1534703924966" duration="1438000" />
+      <workItem from="1534705871857" duration="2100000" />
+      <workItem from="1534708641036" duration="1599000" />
+      <workItem from="1534710487250" duration="1736000" />
+      <workItem from="1534712292440" duration="1602000" />
+      <workItem from="1534718007560" duration="1016000" />
+      <workItem from="1534729430430" duration="1792000" />
+      <workItem from="1534731250578" duration="1465000" />
+      <workItem from="1534733140965" duration="1808000" />
+      <workItem from="1534735024021" duration="2286000" />
+      <workItem from="1534738166701" duration="1525000" />
+      <workItem from="1534740009200" duration="1803000" />
+      <workItem from="1534741827173" duration="427000" />
+      <workItem from="1534776133919" duration="1792000" />
+      <workItem from="1534777938654" duration="1036000" />
+      <workItem from="1534779781910" duration="1803000" />
+      <workItem from="1534781598323" duration="1810000" />
+      <workItem from="1534783425736" duration="151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7218000" />
+    <option name="totallyTimeSpent" value="38139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32943678" />
+      <window_info id="npm" order="4" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32199788" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -236,6 +359,153 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17731">
+          <caret line="1043" column="121" selection-start-line="1043" selection-start-column="121" selection-end-line="1043" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9214">
+          <caret line="542" column="89" selection-start-line="542" selection-start-column="89" selection-end-line="542" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-components/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3536">
+          <caret line="208" column="9" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/javascripts/components/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="6" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="175" column="6" selection-start-line="175" selection-start-column="2" selection-end-line="175" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17731">
+          <caret line="1043" column="121" selection-start-line="1043" selection-start-column="121" selection-end-line="1043" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-components/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3536">
+          <caret line="208" column="9" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/javascripts/components/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="6" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="175" column="6" selection-start-line="175" selection-start-column="2" selection-end-line="175" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17578">
+          <caret line="1034" column="20" lean-forward="true" selection-start-line="1034" selection-start-column="20" selection-end-line="1034" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="6" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="175" column="6" selection-start-line="175" selection-start-column="2" selection-end-line="175" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="6" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="175" column="6" selection-start-line="175" selection-start-column="2" selection-end-line="175" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -362,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2975">
-          <caret line="175" column="6" selection-start-line="175" selection-start-column="2" selection-end-line="175" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navbar.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2465">
@@ -376,17 +639,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/javascripts/components/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/bootstrap-components/_navs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="175" column="6" selection-start-line="175" selection-start-column="2" selection-end-line="175" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/common-components/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-components/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="4522">
+          <caret line="266" column="32" selection-start-line="266" selection-start-column="32" selection-end-line="266" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/common-components/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-components/svg-icons.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7446">
+          <caret line="259" column="24" selection-start-line="259" selection-start-column="24" selection-end-line="259" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-components/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-assets/scss/common-components/_globals.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src-assets/scss/components/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="255">
+          <caret line="976" column="19" selection-start-line="976" selection-start-column="19" selection-end-line="976" selection-end-column="19" />
         </state>
       </provider>
     </entry>

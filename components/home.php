@@ -1,10 +1,12 @@
-<div id="load" data-images="104"></div>
-<section id="mast-head" class="pap-pre-pose mast-head universal-section">
+<section class="mast-head">
+    <video autoplay muted loop preload="auto" poster="assets/images/poster.png" id="mast-head-video">
+        <source src="assets/videos/header.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
     <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h1>The Blockchain Powered<br />Private Aviation Platform</h1>
-                    <img class="pose-one" src="assets/images/pose1.png">
                 </div>
             </div>
             <div class="row">
@@ -130,53 +132,42 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form>
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <input type="text" class="form-control" placeholder="Email">
-                            </div>
-                            <div class="col-lg-3">
-                                <input type="text" class="form-control" placeholder="ETH Address">
-                            </div>
-                            <div class="col-lg-3">
-                                <input type="text" class="form-control" placeholder="Amount">
-                            </div>
-                            <div class="col-lg-3">
-                                <button type="submit" class="btn btn-primary button">Hop On</button>
-                            </div>
-                        </div>
-                    </form>
+                    <button type="submit" class="btn btn-primary button">Get Tokens</button>
             </div>
         </div>
     </div>
 </section>
 
-<section id="pjc-service" class="pap-pose pjc-service universal-section">
+<section id="pjc-ecosystem" class="pap-landing pjc-ecosystem">
     <div class="container">
+        <img class="pose-three" src="assets/images/pose3.png">
         <div class="row">
-            <div class="col-lg-3">
-                <h3>Tokenized Flight Hours</h3>
+            <div class="col-lg-5">
+                <div class="coin-logo">
+                    <div class="coin">
+                        <div class="coin__front"></div>
+                        <div class="coin__edge">
+                            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+
+                        </div>
+                        <div class="coin__back"></div>
+                        <div class="coin__shadow"></div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6">
-                <img src="assets/images/coin-jet-bg.png">
-            </div>
-            <div class="col-lg-3">
-                <h3>Protocol Agnostic Dapp</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-lg-7">
                 <h1>PrivateJetCoin Service</h1>
-                <h5>Virtue in Flight</h5>
+                <h3>Virtue in Flight</h3>
                 <p>PrivateJetCoin allows tokenized cryptocurrency payment for private air travel. We intend to purchase a fleet of Embraer Legacy 450 aircraft. Book a jet on our marketplace, send your tokens to the deposit address, and head to the airport. Want a different jet? Just ask, we will provide price in tokens and book it.</p>
             </div>
         </div>
-    </div>
-</section>
-
-<section id="pjc-ecosystem" class="pap-landing pjc-ecosystem universal-section">
-    <div class="container">
-        <img class="pose-three" src="assets/images/pose3.png">
         <div class="row">
             <div class="col-lg-6">
                 <h1>PJC Ecosystem</h1>
@@ -192,12 +183,16 @@
     </div>
 </section>
 
-<section class="use-cases universal-section light-colors">
+<section class="use-cases light-colors">
     <div class="container">
         <div class="row">
-            <div id="usecase-section" class="col-lg-6">
+            <div class="col-lg-12 punch-line">
                 <h1>Use Cases</h1>
                 <p>Book direct on a variety of platforms or purchase block hours on our super mid-size jets.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div id="usecase-section" class="col-lg-6">
                 <ul class="list-unstyled list-inline">
                     <li id="usecase-1" ><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Third<br />Party</span></button></li>
                     <li id="usecase-2"><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#empty-flights-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Empty<br />Flights</span></button></li>
@@ -205,12 +200,10 @@
                 </ul>
             </div>
             <div id="airline-section" class="col-lg-6 inactive">
-                <h1>Airlines</h1>
-                <p>Operators and brokers operators alike may use the platform to book on behalf of customers.</p>
                 <ul class="list-unstyled list-inline right-airlines">
                     <li id="airlines-1"><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#booking-portals-svg"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Booking<br />Portals</span></button></li>
                     <li id="airlines-2"><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#travel-agencies-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Travel<br />Agencies</span></button></li>
-                    <li id="airlines-3"><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#pjc-solution-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>PJC For<br />Airlines</span></button></li>
+                    <li id="airlines-3"><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#pjc-solution-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Flight<br />Dept.</span></button></li>
                 </ul>
             </div>
         </div>
@@ -255,78 +248,65 @@
     </div>
 </section>
 
-<section class="pjc-card universal-section light-colors">
+<section class="pjc-card light-colors">
     <svg class="world-map-svg"><use xlink:href="#world-map-svg"></use></svg>
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <img src="assets/images/pjc-card.png">
-                <h1>The PJC' JetCard</h1>
+                <h1>The PJC Card</h1>
                 <p>The PJC Card gives you guaranteed access to 25 hours of time on our fleet of super-mid-size business jets, anywhere in the US, with 24hrs notice. Simply buy the card and add, renew, or cancel at any time. All customer deposits are held in a segregated account and there’s no long-term commitment.</p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="virtual-reality universal-section">
+<section class="virtual-reality">
     <div class="container-fluid light-colors">
         <div class="row">
             <div class="col-lg-6 no-padding">
-                <iframe src="https://my.matterport.com/show/?m=BSs2HtPPRjo&amp;mls=1" width="100%" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                <iframe src="https://www.hondajet.com/Content/interior-panorama/index.html" width="100%" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
             </div>
             <div class="col-lg-6 content-block right-block text-right container">
-                <h1>Embraer Legacy 450</h1>
-                <p>Your safety is our top priority. The Embraer 450 series<br />has built an excellent track record, but don't take our<br />word for it - see for yourself: Safeteynet Database.</p>
+                <h1>HondaJet</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br />fringilla ut sapien sed, ultricies dapibus mauris consectetur<br />montes, nascetur ridiculus mus. Maecenas vehicula elit.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6 content-block left-block">
-                <h1>Travel in Comfort</h1>
-                <p>Every inch of the Legacy 450 has been thoughtfully<br />designed. The 6 ft. tall cabin features flat floor and<br />two fully berthable club seat options recline flat to<br />create beds.</p>
+                <h1>Challenger</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br />fringilla ut sapien sed, ultricies dapibus mauris consectetur<br />montes, nascetur ridiculus mus. Maecenas vehicula elit.</p>
             </div>
             <div class="col-lg-6 no-padding">
-                <iframe src="https://my.matterport.com/show/?m=BSs2HtPPRjo&amp;mls=1" width="100%" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                <iframe src="https://www.vistajet.com/360-tour/challenger-350" width="100%" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
             </div>
         </div>
     </div>
 </section>
 
-<section class="token-summary light-colors universal-section">
+<section class="token-summary light-colors">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1>Token Summary</h1>
+                <h1>Token Distribution</h1>
                 <p>100 million PJC utility tokens will be produced and 85 million sold in the ICO.<br />The token is expected to trade on several major exchanges following the ICO.</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6">
-                <h3 class="text-right">Funds Distribution</h3>
-                <ul class="list-unstyled float-left">
-                    <li class="pjc-development">PJC Development</li>
-                    <li class="mns">Marketing and Sales</li>
-                    <li class="token-market">Token Market Support</li>
-                    <li class="legal">Legal</li>
-                    <li class="cns">Compliance & Security</li>
-                </ul>
-                <svg class="graph-funds-distribution"><use xlink:href="#graph-funds-distribution"></use></svg>
+            <div class="col-lg-4">
+                <p>15% Founders & Team</p>
             </div>
-            <div class="col-lg-6">
-                <h3 class="text-left">Token Distribution</h3>
-                <ul class="float-right list-unstyled">
-                    <li class="ppnp">Private Pre-Sale & Public Sale</li>
-                    <li class="fd">Future Development</li>
-                    <li class="ft">Founders and Team</li>
-                    <li class="fp">Future Partners</li>
-                    <li class="aa">Advisors & Ambassadors</li>
-                </ul>
-                <svg class="graph-token-distribution"><use xlink:href="#graph-token-distribution"></use></svg>
+            <div class="col-lg-4">
+                <svg class="graph-token-distribution"><use xlink:href="#token-distribution-new-svg-section"></use></svg>
+            </div>
+            <div class="col-lg-4">
+                <p>85% Community</p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="road-map universal-section light-colors">
+<section class="road-map light-colors">
     <div class="road-map-header">
         <div class="container">
             <div class="row">
@@ -534,24 +514,73 @@
                         <li class="list-inline-item">Q4/19</li>
                         <span class="right-span"><svg class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></span>
                     </ul>
-                    <form _lpchecked="1">
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <input type="text" class="form-control" placeholder="Email" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
-                            </div>
-                            <div class="col-lg-3">
-                                <input type="text" class="form-control" placeholder="ETH Address">
-                            </div>
-                            <div class="col-lg-3">
-                                <input type="text" class="form-control" placeholder="Amount">
-                            </div>
-                            <div class="col-lg-3">
-                                <button type="submit" class="btn btn-primary button">Hop On</button>
-                            </div>
-                        </div>
-                    </form>
+                    <button type="submit" class="btn btn-primary button">Get Tokens</button>
                 </div>
             </div>
+            <!-- <section id="demos">
+                <div class="row">
+                    <div class="large-12 columns">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="main-div">
+                                    <h1>Q3/18</h1>
+                                    <p>JUL</p>
+                                    <svg class="icon-fleet-acquisition"><use xlink:href="#icon-fleet-acquisition"></use></svg>
+                                    <p><span>Fleet Acquisition</span></p>
+                                </div>
+                                <div class="sub-div">
+                                    <img src="assets/images/plane-icon.png">
+                                    <ul class="list-unstyled">
+                                        <li>500 BTC</li>
+                                        <li>+30% Bonus</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="main-div">
+                                    <h1>Q3/18</h1>
+                                    <p>AUG</p>
+                                    <svg class="icon-charter-operations"><use xlink:href="#icon-charter-operations"></use></svg>
+                                    <p><span>Charter Operations</span></p>
+                                </div>
+                                <div class="sub-div">
+                                    <img src="assets/images/plane-icon.png">
+                                    <ul class="list-unstyled">
+                                        <li>750 BTC</li>
+                                        <li>+30% Bonus</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="main-div">
+                                    <h1>Q3/18</h1>
+                                    <p>SEP</p>
+                                    <svg class="icon-booking-platform-testnet"><use xlink:href="#icon-booking-platform-testnet"></use></svg>
+                                    <p><span>Booking Platform Testnet</span></p>
+                                </div>
+                                <div class="sub-div">
+                                    <img src="assets/images/plane-icon.png">
+                                    <ul class="list-unstyled">
+                                        <li>1000 BTC</li>
+                                        <li>+20% Bonus</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="main-div">
+                                    <h1>Q4/18</h1>
+                                    <p>OCT</p>
+                                    <svg class="icon-booking-platfrom-launch"><use xlink:href="#icon-booking-platfrom-launch"></use></svg>
+                                    <p><span>Booking Platform Launch</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section> -->
         </div>
     </div>
+
 </section>
