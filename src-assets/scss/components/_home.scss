@@ -1162,19 +1162,38 @@ canvas {
   .navbar-header {
     float: none;
   }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
   .navbar-toggle {
-    display: none;
+    display: block;
   }
   .navbar-collapse {
+    background: rgb(215, 221, 228);
     border-top: 1px solid transparent;
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse {
+    overflow-y: hidden !important;
+    padding-top: 100px;
+    padding-bottom: 30px;
   }
   .navbar-collapse.collapse {
     display: none!important;
   }
   .navbar-nav {
     float: none!important;
-    margin: 7.5px -15px;
+    margin-top: 7.5px;
+    text-align: center;
+    .button {
+      float: none;
+      margin: auto;
+      color: #0f61be;
+    }
   }
   .navbar-nav>li {
     float: none;
@@ -1182,6 +1201,18 @@ canvas {
   .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  .collapse.in{
+    display:block !important;
+  }
+  .menu-social-icon {
+    display: none !important;
+  }
+  .site-header nav ul li {
+    padding-top: 10px !important;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff !important;
   }
 }
 

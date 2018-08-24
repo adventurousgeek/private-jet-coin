@@ -42,13 +42,13 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
                                 <li class="float-left"><button type="submit" class="btn btn-primary button">Legal</button></li>
-                                <li class="float-left"><a href="#"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
-                                <li class="float-left"><a href="#"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
-                                <li class="float-left"><a href="#"><svg class="icon icon-linkedin2"><use xlink:href="#icon-linkedin2"></use></svg></a></li>
-                                <li class="float-left"><a href="#"><svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg></a></li>
-                                <li class="float-left"><a href="#"><svg class="icon icon-bitcoin"><use xlink:href="#icon-bitcoin"></use></svg></a></li>
-                                <li class="float-left"><a href="#"><svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg></a></li>
-                                <li class="logo-header"><a href="#"><img src="assets/images/logo-header.png"></a></li>
+                                <li class="float-left menu-social-icon"><a href="#"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
+                                <li class="float-left menu-social-icon"><a href="#"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
+                                <li class="float-left menu-social-icon"><a href="#"><svg class="icon icon-linkedin2"><use xlink:href="#icon-linkedin2"></use></svg></a></li>
+                                <li class="float-left menu-social-icon"><a href="#"><svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg></a></li>
+                                <li class="float-left menu-social-icon"><a href="#"><svg class="icon icon-bitcoin"><use xlink:href="#icon-bitcoin"></use></svg></a></li>
+                                <li class="float-left menu-social-icon"><a href="#"><svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg></a></li>
+                                <li class="logo-header menu-social-icon"><a href="#"><img src="assets/images/logo-header.png"></a></li>
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="float-right"><button type="submit" class="btn btn-primary button">Whitepaper</button></li>
