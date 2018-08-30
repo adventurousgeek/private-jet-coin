@@ -694,6 +694,9 @@
         padding-left: 20px;
         font-size: 17.5px;
       }
+      li.inactive-quarter {
+        color: gray;
+      }
     }
     .button {
       float: none;
@@ -962,6 +965,7 @@
     left: 0;
     right: 0;
     margin: auto;
+    z-index: 100;
   }
   .token-summary .container ul {
     max-width: 100%;

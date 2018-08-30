@@ -443,7 +443,7 @@
                 <div class="col-lg-12">
                     <div class="quarter-one">
                         <div class="main-div">
-                            <h1>Q3/18</h1>
+                            <h1>Q1/18</h1>
                             <p>JUL</p>
                             <svg class="icon-fleet-acquisition"><use xlink:href="#icon-fleet-acquisition"></use></svg>
                             <p><span>Fleet Acquisition</span></p>
@@ -458,7 +458,7 @@
                     </div>
                     <div class="quarter-two">
                         <div class="main-div">
-                            <h1>Q3/18</h1>
+                            <h1>Q2/18</h1>
                             <p>AUG</p>
                             <svg class="icon-charter-operations"><use xlink:href="#icon-charter-operations"></use></svg>
                             <p><span>Charter Operations</span></p>
@@ -508,10 +508,10 @@
                         <li class="list-inline-item">Q2/18</li>
                         <li class="list-inline-item">Q3/18</li>
                         <li class="list-inline-item">Q4/18</li>
-                        <li class="list-inline-item">Q1/19</li>
-                        <li class="list-inline-item">Q2/19</li>
-                        <li class="list-inline-item">Q3/19</li>
-                        <li class="list-inline-item">Q4/19</li>
+                        <li class="list-inline-item inactive-quarter">Q1/19</li>
+                        <li class="list-inline-item inactive-quarter">Q2/19</li>
+                        <li class="list-inline-item inactive-quarter">Q3/19</li>
+                        <li class="list-inline-item inactive-quarter">Q4/19</li>
                         <span class="right-span"><svg class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></span>
                     </ul>
                     <button type="submit" class="btn btn-primary button">Get Tokens</button>
