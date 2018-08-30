@@ -573,6 +573,9 @@
   .quarter-predictions, #demos {
     padding: 75px 0px;
     background: #3c4f67;
+    .owl-item{
+      width: auto !important;
+    }
     .container, .row {
       .row, .large-12 {
         svg {
@@ -583,19 +586,22 @@
         }
         .quarter-one {
           display: inline-block;
-          height: 250px;
+          height: 260px;
+
         }
         .quarter-two {
           display: inline-block;
-          height: 250px;
+          height: 260px;
         }
         .quarter-three {
           display: inline-block;
-          height: 250px;
+          height: 260px;
+
         }
         .quarter-four {
           display: inline-block;
-          height: 250px;
+          height: 260px;
+          margin-right: 30px;
         }
         h1 {
           margin-top: 0px;
@@ -623,7 +629,7 @@
         }
         .sub-div {
           display: inline-block;
-          width: 190px;
+          width: 150px;
           text-align: center;
           margin: auto;
           float: right;

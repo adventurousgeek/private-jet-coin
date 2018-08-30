@@ -440,8 +440,8 @@
     <div class="quarter-predictions">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="quarter-one">
+                <div class="col-lg-12 carousel">
+                    <div class="quarter-one " >
                         <div class="main-div">
                             <h1>Q1/18</h1>
                             <p>JUL</p>
@@ -494,6 +494,59 @@
                             <p><span>Booking Platform Launch</span></p>
                         </div>
                     </div>
+                    <div class="quarter-one" >
+                        <div class="main-div">
+                            <h1>Q1/19</h1>
+                            <p>JUL</p>
+                            <svg class="icon-fleet-acquisition"><use xlink:href="#icon-fleet-acquisition"></use></svg>
+                            <p><span>Fleet Acquisition</span></p>
+                        </div>
+                        <div class="sub-div">
+                            <img src="assets/images/plane-icon.png">
+                            <ul class="list-unstyled">
+                                <li>500 BTC</li>
+                                <li>+30% Bonus</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="quarter-two">
+                        <div class="main-div">
+                            <h1>Q2/19</h1>
+                            <p>AUG</p>
+                            <svg class="icon-charter-operations"><use xlink:href="#icon-charter-operations"></use></svg>
+                            <p><span>Charter Operations</span></p>
+                        </div>
+                        <div class="sub-div">
+                            <img src="assets/images/plane-icon.png">
+                            <ul class="list-unstyled">
+                                <li>750 BTC</li>
+                                <li>+30% Bonus</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="quarter-three">
+                        <div class="main-div">
+                            <h1>Q3/19</h1>
+                            <p>SEP</p>
+                            <svg class="icon-booking-platform-testnet"><use xlink:href="#icon-booking-platform-testnet"></use></svg>
+                            <p><span>Booking Platform Testnet</span></p>
+                        </div>
+                        <div class="sub-div">
+                            <img src="assets/images/plane-icon.png">
+                            <ul class="list-unstyled">
+                                <li>1000 BTC</li>
+                                <li>+20% Bonus</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="quarter-four">
+                        <div class="main-div">
+                            <h1>Q4/18</h1>
+                            <p>OCT</p>
+                            <svg class="icon-booking-platfrom-launch"><use xlink:href="#icon-booking-platfrom-launch"></use></svg>
+                            <p><span>Booking Platform Launch</span></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -503,16 +556,16 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="list-inline list-unstyled">
-                        <span class="left-span"><svg class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg></span>
-                        <li class="list-inline-item mobile-display-line">Q1/18</li>
-                        <li class="list-inline-item">Q2/18</li>
-                        <li class="list-inline-item">Q3/18</li>
-                        <li class="list-inline-item">Q4/18</li>
-                        <li class="list-inline-item inactive-quarter">Q1/19</li>
-                        <li class="list-inline-item inactive-quarter">Q2/19</li>
-                        <li class="list-inline-item inactive-quarter">Q3/19</li>
-                        <li class="list-inline-item inactive-quarter">Q4/19</li>
-                        <span class="right-span"><svg class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></span>
+                        <span class="left-span" id="left-button"><svg class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg></span>
+                        <li class="list-inline-item mobile-display-line" id="slider-item-0">Q1/18</li>
+                        <li class="list-inline-item" id="slider-item-1">Q2/18</li>
+                        <li class="list-inline-item" id="slider-item-2">Q3/18</li>
+                        <li class="list-inline-item" id="slider-item-3">Q4/18</li>
+                        <li class="list-inline-item inactive-quarter" id="slider-item-4">Q1/19</li>
+                        <li class="list-inline-item inactive-quarter" id="slider-item-5">Q2/19</li>
+                        <li class="list-inline-item inactive-quarter" id="slider-item-6">Q3/19</li>
+                        <li class="list-inline-item inactive-quarter" id="slider-item-7">Q4/19</li>
+                        <span class="right-span" id="right-button"><svg class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></span>
                     </ul>
                     <button type="submit" class="btn btn-primary button">Get Tokens</button>
                 </div>

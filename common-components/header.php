@@ -16,7 +16,9 @@
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
-
+    <link rel="stylesheet" href="./slick.css">
+    <link rel="stylesheet" href="./slick-theme.css">
+    
 </head>
 <body>
 <?php require_once "svg-icons.php"; ?>

@@ -74,34 +74,79 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<script src="assets/js/slick.js"></script>
+
 <script>
     $(document).ready(function() {
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: true
+       var screenSize=window.innerWidth<=1200?'small':'large';
+       var slickCarousel=$('.carousel');
+       slickCarousel.slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            prevArrow:'.left-span',
+            nextArrow:'.right-span',
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
                 },
-                600: {
-                    items: 3,
-                    nav: false
-                },
-                1000: {
-                    items: 4,
-                    nav: true,
-                    loop: false,
-                    margin: 20
-                }
+            ]
+        });
+        slickCarousel.on('breakpoint',function(event, slick, breakpoint){
+            if(breakpoint===1200){
+                screenSize='small';
+            } else {
+                screenSize='large';
             }
-        })
-    })
+        });
+        slickCarousel.on('beforeChange',function(event, slick, slide){
+           if(screenSize==='small'){
+               const currentSelected = $('.mobile-display-line');
+               const currentId = currentSelected.attr('id');
+              const currentIdNumber =currentId.replace('slider-item-','');
+              $('.mobile-display-line').removeClass('mobile-display-line');
+              $('#slider-item-'+((slide+1)%8)).addClass('mobile-display-line');
+              
+           }
+           else if(screenSize==='large'){
+               debugger;
+               if(slide===0){
+                $('#slider-item-0').addClass('inactive-quarter');
+                $('#slider-item-1').addClass('inactive-quarter');
+                $('#slider-item-2').addClass('inactive-quarter');
+                $('#slider-item-3').addClass('inactive-quarter');
+                $('#slider-item-4').removeClass('inactive-quarter');
+                $('#slider-item-5').removeClass('inactive-quarter');
+                $('#slider-item-6').removeClass('inactive-quarter');
+                $('#slider-item-7').removeClass('inactive-quarter');
+               }
+                else if(slide===4){
+                    $('#slider-item-0').removeClass('inactive-quarter');
+                $('#slider-item-1').removeClass('inactive-quarter');
+                $('#slider-item-2').removeClass('inactive-quarter');
+                $('#slider-item-3').removeClass('inactive-quarter');
+                $('#slider-item-4').addClass('inactive-quarter');
+                $('#slider-item-5').addClass('inactive-quarter');
+                $('#slider-item-6').addClass('inactive-quarter');
+                $('#slider-item-7').addClass('inactive-quarter');
+                }
+               const currentSelected = $('.mobile-display-line');
+               const currentId = currentSelected.attr('id');
+              const currentIdNumber =currentId.replace('slider-item-','');
+              $('.mobile-display-line').removeClass('mobile-display-line');
+              $('#slider-item-'+((slide+1)%8)).addClass('mobile-display-line');
+              
+           }
+            
+        });
+        
+    });
 </script>
 
 </body>
 </html>
-
-
-
