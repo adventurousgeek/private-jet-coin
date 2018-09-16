@@ -7,19 +7,24 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 
 // Compile & Generate Style File
-gulp.task('styles', function () {
+
+gulp.task('styles', function (done) {
     gulp.src('./src-assets/scss/style.scss')
         .pipe(sass())
         .pipe(cleanCSS({compatibility: 'ie8'})) //Later on
         .pipe(gulp.dest('./'));
+    done();
 });
 
+// End
+
+
 // Compile & Generate Javscript File
-gulp.task('scripts', function() {
-    return gulp.src([
+gulp.task('scripts', function (done) {
+    gulp.src([
 
         //jQuery
-        'javascripts/vendor-components/jquery/jquery.1.12.4.min.js',
+        //'javascripts/vendor-components/jquery/jquery.1.12.4.min.js',
 
         //Bootstrap Components
 
@@ -44,19 +49,22 @@ gulp.task('scripts', function() {
         .pipe(concat('scripts.js'))
         .pipe(uglify())
         .pipe( gulp.dest('./assets/js/'));
+        done();
 
 
 });
 
 
 // Watch If SCSS File Changes
-gulp.task('styles:watch', function () {
-    gulp.watch('./src-assets/scss/**/*.scss', ['styles']);
+gulp.task('styles:watch', function (done) {
+    gulp.watch('./src-assets/scss/**/*.scss', gulp.series('styles'));
+    done();
 });
 
 // Watch If Javascript File Changes
-gulp.task('scripts:watch', function () {
-    gulp.watch('./src-assets/javascripts/**/*.js', ['scripts']);
+gulp.task('scripts:watch', function (done) {
+    gulp.watch('./src-assets/javascripts/**/*.js', gulp.series('scripts'));
+    done();
 });
 
-gulp.task('default', ['styles', 'scripts' , 'styles:watch' , 'scripts:watch']);
+gulp.task('default', gulp.series('styles', 'scripts' , 'styles:watch' , 'scripts:watch'));
