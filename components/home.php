@@ -6,7 +6,7 @@
     <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>The Blockchain Powered<br />Private Aviation Platform</h1>
+                    <h1>The Blockchain Powered<br class="no-display"> Private Aviation Platform</h1>
                 </div>
             </div>
             <div class="row">
@@ -17,7 +17,7 @@
 
 
                             <div class="figure days days-1">
-                                <span class="top-back">
+        r                        <span class="top-back">
                                         <span>3</span>
                                     </span>
                                 <span class="bottom">3</span>
@@ -337,13 +337,13 @@
             </div>
             <div class="col-lg-6 content-block right-block text-right container">
                 <h1>HondaJet Elite</h1>
-                <p>HondaJet's roomy cabin features Wi-Fi, a private lavatory,<br />and full-service galley. With a 1,400 nautical mile range,<br />a maximum cruising altitude of 43,000 ft,<br />and a maximum speed of 400 KTAS,<br />the aircraft is well suited to a variety of<br />regional missions and a full-service galley.</p>
+                <p>HondaJet's roomy cabin features Wi-Fi, a private lavatory,<br class="no-display"> and full-service galley. With a 1,400 nautical mile range,<br class="no-display"> a maximum cruising altitude of 43,000 ft,<br class="no-display"> and a maximum speed of 400 KTAS,<br class="no-display"> the aircraft is well suited to a variety of<br class="no-display"> regional missions and a full-service galley.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6 content-block left-block">
                 <h1>Challenger 300</h1>
-                <p>The Challenger offers true transcontinental range<br />for 8-10 passengers. Its superior airfield performance<br />allows the aircraft to operate out of 5,000-ft. (1,524-m)<br />runways with ease.</p>
+                <p>The Challenger offers true transcontinental range<br class="no-display"> for 8-10 passengers. Its superior airfield performance<br class="no-display"> allows the aircraft to operate out of 5,000-ft. (1,524-m)<br class="no-display"> runways with ease.</p>
             </div>
             <div class="col-lg-6 no-padding">
                 <iframe src="https://www.jetcraft.com/360/CL300-sn-20131/" width="100%" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>

@@ -1090,9 +1090,6 @@
     max-width: 100%;
     overflow: hidden;
   }
-  .countdown {
-    zoom: .7;
-  }
   .use-cases .container .row .col-lg-12 h2 .icon-arrow-right2 {
     margin-left: 5px;
   }
@@ -1104,13 +1101,13 @@
   }
   .post-footer {
     height: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 40px;
   }
   .pre-footer {
     height: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     background: #005dcd;
   }
   .post-footer .col-lg-3 ul {
@@ -1139,13 +1136,23 @@
   }
 
   .road-map .quarter-predictions .container .row .quarter-two {
-    display: none;
+    display: block;
+  }
+  .road-map .quarter-predictions .container .row .main-div {
+    float: none;
   }
   .road-map .quarter-predictions .container .row .quarter-three {
-    display: none;
+    display: block;
   }
   .road-map .quarter-predictions .container .row .quarter-four {
-    display: none;
+    display: block;
+  }
+  .road-map .quarter-predictions .container .row .quarter-five {
+    display: block;
+    margin-left: -40px;
+  }
+  .post-footer .col-lg-6 .btn-primary {
+    font-size: 13px;
   }
   .road-map .road-map-footer ul li {
     display: none;
@@ -1234,7 +1241,7 @@
     margin-bottom: 30px;
   }
   .pjc-ecosystem {
-    padding-bottom: 337px;
+    padding-bottom: 40px;
   }
   .pre-footer .col-lg-3 {
     text-align: center;
@@ -1254,11 +1261,24 @@
   .mast-head .col-lg-12 h1 {
     margin-bottom: 20px;
   }
+  .use-cases .container .row .absolute-des-use-cases {
+    position: relative;
+    width: auto;
+    margin-top: -41px;
+    margin-bottom: 30px;
+  }
+  .use-cases .container .row .col-lg-6 h1 {
+    padding: 0 !important;
+    text-align: center !important;
+  }
+  .use-cases .container .row .inactive h1 {
+    color: white !important;
+  }
 }
 
 @media (max-width: 600px) {
   .pjc-ecosystem {
-    padding-bottom: 257px;
+    padding-bottom: 40px;
   }
   .token-summary .container ul {
     zoom: .6;
@@ -1284,6 +1304,29 @@
   }
   .mast-head .col-lg-12 h1 {
     margin-bottom: 20px;
+  }
+  .mast-head .col-lg-12 h1 .no-display {
+    display: none;
+  }
+  .pjc-ecosystem .container .row .coin-logo {
+    margin-bottom: 120px;
+  }
+  .countdown .bloc-time {
+    margin-right: 7px;
+  }
+  .countdown {
+    width: 365px;
+  }
+  .countdown .figure {
+    height: 64px;
+    width: 42px;
+  }
+  .countdown .figure>span {
+    font-size: 51px;
+    line-height: 63px;
+  }
+  .no-display {
+    display: none;
   }
 
 }
