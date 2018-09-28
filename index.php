@@ -3,8 +3,3 @@
 	<?php require_once __DIR__ . '/components/home.php'; ?>
 </main>
 <?php require_once __DIR__ . '/common-components/footer.php'; ?>
-
-
-
-	
-	

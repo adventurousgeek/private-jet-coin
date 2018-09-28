@@ -1,6 +1,6 @@
 .pre-footer {
   background: #005dcd url(assets/images/pre-footer-background.png) bottom center no-repeat;
-  background-size: cover;
+  background-size: 1200px;
   padding-top: 80px;
   padding-bottom: 87px;
   .app-store-footer, .play-store-icon-footer {
@@ -100,6 +100,19 @@
       letter-spacing: 1px;
       margin-bottom: 55px;
       line-height: 13px;
+    }
+  }
+}
+.modal-content {
+  h4.modal-title {
+    color: black;
+  }
+  .modal-body {
+    p {
+      color: black !important;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }

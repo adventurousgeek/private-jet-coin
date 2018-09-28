@@ -23,33 +23,53 @@
             <div class="row">
                 <div class="col-lg-3">
                     <p>inquiry@privatejetcoin.io</p>
-                    <p>3422 Old Capital Trail,<br />
-                        Suite 700, Wilmington,<br />
-                        DE 19808</p>
-                    <img src="assets/images/footer-logo.png" width="73px">
+                    <p>3422 Old Capital Trail<br />
+                        Suite 700<br />
+                        Wilmington, DE 19808</p>
+                    <img src="assets/images/logo-header.png" width="73px">
                 </div>
                 <div class="col-lg-6 text-center">
                     <div class="input-group">
-                        <input id="txtsubsemail" type="email" class="form-control" placeholder="email@company.com">
-                        <button id="subs_btn" class="btn btn-primary" type="button">Subscribe for Newsletter</button>
+                        <input id="txtsubsemail" type="email" class="form-control" placeholder="please enter email address">
+                        <button id="subs_btn" class="btn btn-primary" type="button">Click Here To Submit - Join The Community!</button>
                     </div>
                     <ul class="list-inline text-center">
-                        <li><a href="#"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
-                        <li><a href="#"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
-                        <li><a href="#"><svg class="icon icon-linkedin2"><use xlink:href="#icon-linkedin2"></use></svg></a></li>
-                        <li><a href="#"><svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg></a></li>
-                        <li><a href="#"><svg class="icon icon-bitcoin"><use xlink:href="#icon-bitcoin"></use></svg></a></li>
-                        <li><a href="#"><svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg></a></li>
+                        <li><a target="_blank" href="https://twitter.com/PrivateJetCoin"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/privatejetcoin/"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/company/privatejetcoin/"><svg class="icon icon-linkedin2"><use xlink:href="#icon-linkedin2"></use></svg></a></li>
+                        <li><a target="_blank" href="mailto:inquiry@privatejetcoin.io"><svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg></a></li>
+                        <li><a target="_blank" href="https://t.me/privatejetcoin"><svg class="icon icon-envelop"><use xlink:href="#telegram-icon"></use></svg></a></li>
+                        <li><a target="_blank" href="#"><svg class="icon icon-bitcoin"><use xlink:href="#icon-bitcoin"></use></svg></a></li>
                     </ul>
                     <p>© 2018 Private Jet Coin LLC - All Rights Reserved</p>
                 </div>
                 <div class="col-lg-3">
                     <ul class="list-unstyled">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="mailto:inquiry@privatejetcoin.io">Contact Us</a></li>
+                        <li><a href="https://private-jet-coin.github.io/docs/privacy-policy" target="_blank">Privacy Policy</a></li>
+                        <li><a type="button" data-toggle="modal" data-target="#myModal" href="#">Terms & Conditions</a></li>
                     </ul>
+                    <div id="myModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Terms & Conditions</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>By accessing this Site, you agree that your access to, and use of the Site will be subject to the conditions set forth in this legal notice and all applicable laws. If you do not agree and accept, without limitation or qualification, these terms, please exit the Site.</p>
+                                    <p>This Site and all of its content, including, but not limited to, all text, graphics, logos, button icons, images, software, and the presentation contained herein, belongs to PrivateJetCoin LLC or its third party licensors. The design and layout of this Site (the look and feel of the Site) is the exclusive property of PrivateJetCoin LLC and may not be used, copied, distributed or displayed in any way. All trademarks, logos, or service marks, whether registered or unregistered, are proprietary to PrivateJetCoin LLC or its third party licensors. This Site may contain proprietary notices and copyright information, the terms of which must be observed and followed.</p>
+                                    <p>PrivateJetCoin LLC grants you a limited license to make personal use of the Site. Except as noted, you are not conveyed any right or license by implication, estoppel, or otherwise, to use, reproduce, transmit, perform, publish, license, modify, rewrite, create derivative works from, transfer or sell any of the content or information contained within this Site, including but not limited to, any of PrivateJetCoin LLC’s intellectual property.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                     <div class="language-icon-added">
                         <img src="assets/images/language-icon.png">
                         <span>English</span>

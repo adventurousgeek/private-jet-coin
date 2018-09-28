@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
     <link rel="stylesheet" href="./slick.css">
     <link rel="stylesheet" href="./slick-theme.css">
-    
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600" rel="stylesheet">
+
 </head>
 <body>
 <?php require_once "svg-icons.php"; ?>
@@ -30,7 +31,7 @@
                 <nav class="navbar navbar-default">
                     <a href="#"><img src="assets/images/logo-header.png" class="mobile-logo"></a>
                     <div class="container-fluid">
-                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <!-- Brand and toggle get grouped for better mobile display
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                 <span class="sr-only">Toggle navigation</span>
@@ -38,24 +39,11 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                        </div>
+                        </div>-->
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav">
-                                <li class="float-left"><button type="submit" class="btn btn-primary button">Legal</button></li>
-                                <li class="float-left menu-social-icon"><a href="#"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
-                                <li class="float-left menu-social-icon"><a href="#"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
-                                <li class="float-left menu-social-icon"><a href="#"><svg class="icon icon-linkedin2"><use xlink:href="#icon-linkedin2"></use></svg></a></li>
-                                <li class="float-left menu-social-icon"><a href="#"><svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg></a></li>
-                                <li class="float-left menu-social-icon"><a href="#"><svg class="icon icon-bitcoin"><use xlink:href="#icon-bitcoin"></use></svg></a></li>
-                                <li class="float-left menu-social-icon"><a href="#"><svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg></a></li>
-                                <li class="logo-header menu-social-icon"><a href="#"><img src="assets/images/logo-header.png"></a></li>
-                            </ul>
-                            <ul class="nav navbar-nav navbar-right">
-                                <li class="float-right"><button type="submit" class="btn btn-primary button">Whitepaper</button></li>
-                                <li class="float-right"><button type="submit" class="btn btn-primary button">Contact</button></li>
-                            </ul>
+                            <div class="logo-header"><a href="#"><img src="assets/images/logo-header.png"></a></div>
                         </div><!-- /.navbar-collapse -->
                     </div><!-- /.container-fluid -->
                 </nav>
