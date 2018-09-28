@@ -231,6 +231,14 @@
   padding-bottom: 40px;
   .container {
     .row {
+      .absolute-des-use-cases {
+        position: absolute;
+        width: 400px;
+        text-align: center;
+        right: 0;
+        left: 0;
+        margin: auto;
+      }
       .col-lg-4 {
         p {
           margin-bottom: 28px;
@@ -248,7 +256,9 @@
         h1 {
           line-height: 35px;
           margin-top: 0px;
-          margin-bottom: 31px;
+          margin-bottom: 71px;
+          padding-right: 60px;
+          padding-left: 60px;
         }
       }
       .inactive{

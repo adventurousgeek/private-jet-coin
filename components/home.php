@@ -179,7 +179,7 @@
         </div>
     </div>
 </section>
-
+<!--
 <section class="use-cases light-colors">
     <div class="container">
         <div class="row">
@@ -203,6 +203,71 @@
                 </ul>
             </div>
             <div id="airline-section" class="col-lg-6 inactive">
+                <ul class="list-unstyled list-inline right-airlines">
+                    <li id="airlines-1"><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#booking-portals-svg"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Individual</span></button></li>
+                    <li id="airlines-2"><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#travel-agencies-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Charter<br />Broker</span></button></li>
+                    <li id="airlines-3"><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#pjc-solution-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Flight<br />Dept.</span></button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div id="div_1" class="col-lg-12">
+                <div>
+                    <h2><svg class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg>Charter<svg onclick="nextInfo('div_1','div_2')" class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></h2>
+                    <p>Book a flight listed on the marketplace or call us and allow us to exceed your expectations.</p>
+                </div>
+            </div>
+            <div id="div_2" class="col-lg-12 hide">
+                <div>
+                    <h2><svg onclick="prevInfo('div_2','div_1')" class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg>Empty Leg<svg onclick="nextInfo('div_2','div_3')" class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></h2>
+                    <p>Book a discounted ride via the marketplace.</p>
+                </div>
+            </div>
+            <div id="div_3" class="col-lg-12 hide">
+                <div>
+                    <h2><svg onclick="prevInfo('div_3','div_2')" class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg>Scheduled Charter<svg onclick="nextInfo('div_3','div_4')" class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></h2>
+                    <p>Travel to and from a select city pairs at regular intervals and at competitive rates.</p>
+                </div>
+            </div>
+            <div id="div_4" class="col-lg-12 hide">
+                <div>
+                    <h2><svg onclick="prevInfo('div_4','div_3')" class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg>Individual<svg onclick="nextInfo('div_4','div_5')" class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></h2>
+                    <p>More freedom at lower cost. Book online or speak with a representative, we're here to please!</p>
+                </div>
+            </div>
+            <div id="div_5" class="col-lg-12 hide">
+                <div>
+                    <h2><svg onclick="prevInfo('div_5','div_4')" class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg>Charter Broker<svg onclick="nextInfo('div_5','div_6')" class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></h2>
+                    <p>Offer more to your customers and pay less for it.</p>
+                </div>
+            </div>
+            <div id="div_6" class="col-lg-12 hide">
+                <div>
+                    <h2><svg onclick="prevInfo('div_6','div_5')" class="icon icon-arrow-left2"><use xlink:href="#icon-arrow-left2"></use></svg>Flight Departments<svg class="icon icon-arrow-right2"><use xlink:href="#icon-arrow-right2"></use></svg></h2>
+                    <p>Own the coin for flexible lift: match the right asset to the right mission, every time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+
+<section class="use-cases light-colors">
+    <div class="container">
+        <div class="row">
+            <div id="usecase-section" class="col-lg-6">
+                <h1 class="text-left">Use Cases</h1>
+                <ul class="list-unstyled list-inline">
+                    <li id="usecase-1" ><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#third-party-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Charter</span></button></li>
+                    <li id="usecase-2"><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#empty-flights-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Empty<br />Leg</span></button></li>
+                    <li id="usecase-3"><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#unused-cpacity-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Scheduled<br />Charter</span></button></li>
+                </ul>
+            </div>
+            <div class="absolute-des-use-cases">
+                <p>Book direct on a variety of platforms or purchase block hours on our super mid-size jets.</p>
+            </div>
+            <div id="airline-section" class="col-lg-6 inactive">
+                <h1 class="text-right">Customers</h1>
                 <ul class="list-unstyled list-inline right-airlines">
                     <li id="airlines-1"><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#booking-portals-svg"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Individual</span></button></li>
                     <li id="airlines-2"><button><svg class="window-border-hide"><use xlink:href="#window-border-hide"></use></svg><svg class="third-party-icon"><use xlink:href="#travel-agencies-icon"></use></svg><svg class="svg-window-hatchet"><use xlink:href="#svg-window-hatchet"></use></svg><span>Charter<br />Broker</span></button></li>
